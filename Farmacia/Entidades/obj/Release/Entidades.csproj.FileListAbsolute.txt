@@ -1,0 +1,6 @@
+C:\Users\Yeison De Jesus\Desktop\PROYECTO FARMACIA\Farmacia\Entidades\bin\Release\Entidades.dll
+C:\Users\Yeison De Jesus\Desktop\PROYECTO FARMACIA\Farmacia\Entidades\bin\Release\Entidades.pdb
+C:\Users\Yeison De Jesus\Desktop\PROYECTO FARMACIA\Farmacia\Entidades\obj\Release\Entidades.csproj.AssemblyReference.cache
+C:\Users\Yeison De Jesus\Desktop\PROYECTO FARMACIA\Farmacia\Entidades\obj\Release\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Yeison De Jesus\Desktop\PROYECTO FARMACIA\Farmacia\Entidades\obj\Release\Entidades.dll
+C:\Users\Yeison De Jesus\Desktop\PROYECTO FARMACIA\Farmacia\Entidades\obj\Release\Entidades.pdb
