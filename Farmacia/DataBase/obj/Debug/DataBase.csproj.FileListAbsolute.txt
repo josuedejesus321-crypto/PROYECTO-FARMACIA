@@ -16,3 +16,12 @@ C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\DataBase\obj\Debug\DataBase.cs
 C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\DataBase\obj\Debug\DataBase.csproj.Up2Date
 C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\DataBase\obj\Debug\DataBase.dll
 C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\DataBase\obj\Debug\DataBase.pdb
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\DataBase\bin\Debug\DataBase.dll
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\DataBase\bin\Debug\DataBase.pdb
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\DataBase\bin\Debug\Entidades.dll
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\DataBase\bin\Debug\Entidades.pdb
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\DataBase\obj\Debug\DataBase.csproj.AssemblyReference.cache
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\DataBase\obj\Debug\DataBase.csproj.CoreCompileInputs.cache
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\DataBase\obj\Debug\DataBase.csproj.Up2Date
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\DataBase\obj\Debug\DataBase.dll
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\DataBase\obj\Debug\DataBase.pdb

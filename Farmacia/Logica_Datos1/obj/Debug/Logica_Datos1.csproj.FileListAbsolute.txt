@@ -20,3 +20,14 @@ C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\Logica_Datos1\obj\Debug\Logica
 C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\Logica_Datos1\obj\Debug\Logica_D.B8B0B212.Up2Date
 C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\Logica_Datos1\obj\Debug\Logica_Datos1.dll
 C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\Logica_Datos1\obj\Debug\Logica_Datos1.pdb
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Logica_Datos1\bin\Debug\Logica_Datos1.dll
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Logica_Datos1\bin\Debug\Logica_Datos1.pdb
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Logica_Datos1\bin\Debug\DataBase.dll
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Logica_Datos1\bin\Debug\Entidades.dll
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Logica_Datos1\bin\Debug\DataBase.pdb
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Logica_Datos1\bin\Debug\Entidades.pdb
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Logica_Datos1\obj\Debug\Logica_Datos1.csproj.AssemblyReference.cache
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Logica_Datos1\obj\Debug\Logica_Datos1.csproj.CoreCompileInputs.cache
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Logica_Datos1\obj\Debug\Logica_D.B8B0B212.Up2Date
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Logica_Datos1\obj\Debug\Logica_Datos1.dll
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Logica_Datos1\obj\Debug\Logica_Datos1.pdb
