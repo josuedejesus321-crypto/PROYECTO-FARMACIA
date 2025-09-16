@@ -4,3 +4,9 @@ C:\Users\Yeison De Jesus\Desktop\PROYECTO FARMACIA\Farmacia\Entidades\obj\Debug\
 C:\Users\Yeison De Jesus\Desktop\PROYECTO FARMACIA\Farmacia\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Yeison De Jesus\Desktop\PROYECTO FARMACIA\Farmacia\Entidades\obj\Debug\Entidades.dll
 C:\Users\Yeison De Jesus\Desktop\PROYECTO FARMACIA\Farmacia\Entidades\obj\Debug\Entidades.pdb
+C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\Entidades\bin\Debug\Entidades.dll
+C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\Entidades\bin\Debug\Entidades.pdb
+C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\Entidades\obj\Debug\Entidades.dll
+C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\Entidades\obj\Debug\Entidades.pdb
