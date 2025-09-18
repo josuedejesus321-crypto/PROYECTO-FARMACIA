@@ -1,0 +1,350 @@
+{
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "Microsoft .NET Upgrade Assistant",
+          "version": "1.0.518.26217",
+          "informationUri": "https://docs.microsoft.com/dotnet/core/porting/upgrade-assistant-overview",
+          "rules": [
+            {
+              "id": "Project.0001",
+              "name": "ProjectUpgrade",
+              "shortDescription": {
+                "text": "Proyecto requiere actualización de marco de destino"
+              },
+              "fullDescription": {
+                "text": "El proyecto está usando .NET Framework y necesita ser migrado a .NET 9"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://docs.microsoft.com/dotnet/core/porting/",
+              "properties": {
+                "category": "Project"
+              }
+            },
+            {
+              "id": "Project.0002", 
+              "name": "TargetFramework",
+              "shortDescription": {
+                "text": "Marco de destino actual requiere actualización"
+              },
+              "fullDescription": {
+                "text": "El marco de destino actual necesita ser actualizado de .NET Framework 4.7.2 a net9.0-windows"
+              },
+              "defaultConfiguration": {
+                "level": "error"
+              },
+              "helpUri": "https://docs.microsoft.com/dotnet/core/porting/",
+              "properties": {
+                "category": "Project"
+              }
+            },
+            {
+              "id": "Api.0002",
+              "name": "ApiCompatibility", 
+              "shortDescription": {
+                "text": "API requiere paquete NuGet o reemplazo"
+              },
+              "fullDescription": {
+                "text": "La API de System.Data.SqlClient debe ser reemplazada por Microsoft.Data.SqlClient para compatibilidad con .NET 9"
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              },
+              "helpUri": "https://docs.microsoft.com/dotnet/core/compatibility/",
+              "properties": {
+                "category": "Api"
+              }
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "Project.0001",
+          "ruleIndex": 0,
+          "level": "error",
+          "message": {
+            "text": "Proyecto DataBase requiere actualización de marco de destino para .NET 9"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DataBase/DataBase.csproj"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "incidentId": "45d231c0-aa6b-4c5e-bd17-71bfd1f45326",
+            "projectPath": "DataBase\\DataBase.csproj"
+          }
+        },
+        {
+          "ruleId": "Project.0002",
+          "ruleIndex": 1, 
+          "level": "error",
+          "message": {
+            "text": "Marco de destino actual: .NETFramework,Version=v4.7.2\nMarco de destino recomendado: net9.0-windows"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DataBase/DataBase.csproj"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "incidentId": "4b7c0824-6430-4db1-9caa-63298767daf7",
+            "projectPath": "DataBase\\DataBase.csproj"
+          }
+        },
+        {
+          "ruleId": "Api.0002",
+          "ruleIndex": 2,
+          "level": "warning", 
+          "message": {
+            "text": "System.Data.SqlClient.SqlCommand.ExecuteScalar debe migrar a Microsoft.Data.SqlClient para .NET 9"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DataBase/Consultas_DashBoard.cs"
+                },
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 16
+                }
+              }
+            }
+          ],
+          "fixes": [
+            {
+              "description": {
+                "text": "Reemplazar System.Data.SqlClient por Microsoft.Data.SqlClient"
+              },
+              "artifactChanges": [
+                {
+                  "artifactLocation": {
+                    "uri": "DataBase/Consultas_DashBoard.cs"
+                  },
+                  "replacements": [
+                    {
+                      "deletedRegion": {
+                        "startLine": 1,
+                        "startColumn": 1,
+                        "endLine": 1,
+                        "endColumn": 100
+                      },
+                      "insertedContent": {
+                        "text": "using Microsoft.Data.SqlClient;"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "incidentId": "75d22b9c-7e9d-4ed8-a0c6-3f8d15917899",
+            "projectPath": "DataBase\\DataBase.csproj",
+            "apiSignature": "M:System.Data.SqlClient.SqlCommand.ExecuteScalar",
+            "modernReplacement": "Microsoft.Data.SqlClient"
+          },
+          "relatedLocations": [
+            {
+              "id": 1,
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "https://learn.microsoft.com/dotnet/api/microsoft.data.sqlclient.sqlcommand.executescalar"
+                }
+              },
+              "message": {
+                "text": "Documentación de la API moderna"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "Api.0002",
+          "ruleIndex": 2,
+          "level": "warning",
+          "message": {
+            "text": "System.Data.SqlClient.SqlCommand debe migrar a Microsoft.Data.SqlClient para .NET 9"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DataBase/Consultas_DashBoard.cs"  
+                },
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 16
+                }
+              }
+            }
+          ],
+          "properties": {
+            "incidentId": "3f2a4102-52f4-4376-9db5-af11d2634a62",
+            "projectPath": "DataBase\\DataBase.csproj",
+            "apiSignature": "T:System.Data.SqlClient.SqlCommand",
+            "modernReplacement": "Microsoft.Data.SqlClient"
+          },
+          "relatedLocations": [
+            {
+              "id": 1,
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "https://learn.microsoft.com/dotnet/api/microsoft.data.sqlclient.sqlcommand"
+                }
+              },
+              "message": {
+                "text": "Documentación de la API moderna"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "Api.0002", 
+          "ruleIndex": 2,
+          "level": "warning",
+          "message": {
+            "text": "System.Data.SqlClient.SqlConnection debe migrar a Microsoft.Data.SqlClient para .NET 9"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DataBase/Consultas_DashBoard.cs"
+                },
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 12
+                }
+              }
+            }
+          ],
+          "properties": {
+            "incidentId": "6070ea58-ac50-4ca4-94b2-c38653a347a4",
+            "projectPath": "DataBase\\DataBase.csproj", 
+            "apiSignature": "T:System.Data.SqlClient.SqlConnection",
+            "modernReplacement": "Microsoft.Data.SqlClient"
+          },
+          "relatedLocations": [
+            {
+              "id": 1,
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "https://learn.microsoft.com/dotnet/api/microsoft.data.sqlclient.sqlconnection"
+                }
+              },
+              "message": {
+                "text": "Documentación de la API moderna"
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "Api.0002",
+          "ruleIndex": 2,
+          "level": "warning",
+          "message": {
+            "text": "System.Data.SqlClient.SqlDataReader debe migrar a Microsoft.Data.SqlClient para .NET 9"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "DataBase/Consultas_Historial_Ventas.cs"
+                },
+                "region": {
+                  "startLine": 64,
+                  "startColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "incidentId": "3ffe290b-eeca-4df4-88d9-6eaf972d49a0",
+            "projectPath": "DataBase\\DataBase.csproj",
+            "apiSignature": "M:System.Data.SqlClient.SqlDataReader.GetDecimal(System.Int32)",
+            "modernReplacement": "Microsoft.Data.SqlClient"
+          },
+          "relatedLocations": [
+            {
+              "id": 1,
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "https://learn.microsoft.com/dotnet/api/microsoft.data.sqlclient.sqldatareader.getdecimal"
+                }
+              },
+              "message": {
+                "text": "Documentación de la API moderna"
+              }
+            }
+          ]
+        }
+      ],
+      "properties": {
+        "analysisTarget": ".NETCoreApp,Version=v9.0",
+        "analysisStartTime": "2025-09-16T21:41:52.2792726Z",
+        "analysisEndTime": "2025-09-16T21:42:16.7471191Z",
+        "privacyMode": "Protected",
+        "sourceAnalysis": "HTML Report Conversion",
+        "statistics": {
+          "projects": 4,
+          "totalIssues": 8,
+          "totalIncidents": 14281,
+          "effortPoints": 14281,
+          "severity": {
+            "mandatory": 11908,
+            "optional": 2,
+            "potential": 2371,
+            "information": 0
+          },
+          "category": {
+            "project": 8,
+            "api": 14241,
+            "nuget": 32
+          }
+        },
+        "migrationSummary": {
+          "targetFramework": "net9.0-windows",
+          "currentFramework": ".NETFramework,Version=v4.7.2",
+          "primaryChanges": [
+            "Actualizar marcos de destino de todos los proyectos",
+            "Migrar System.Data.SqlClient a Microsoft.Data.SqlClient",
+            "Actualizar paquetes NuGet para compatibilidad con .NET 9",
+            "Revisar APIs obsoletas y reemplazar con alternativas modernas"
+          ],
+          "recommendedActions": [
+            {
+              "action": "UpdateProjectFiles",
+              "description": "Actualizar archivos .csproj para usar net9.0-windows",
+              "priority": "High"
+            },
+            {
+              "action": "UpdateSqlClientPackage", 
+              "description": "Reemplazar System.Data.SqlClient con Microsoft.Data.SqlClient",
+              "priority": "High"
+            },
+            {
+              "action": "UpdateNuGetPackages",
+              "description": "Actualizar todos los paquetes NuGet a versiones compatibles con .NET 9",
+              "priority": "Medium"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
