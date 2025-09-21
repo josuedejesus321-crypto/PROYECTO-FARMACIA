@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3570B9F3-6CBA-48CF-B16E-95BB78BF8976}|Farmacia\\Farmacia.csproj|c:\\users\\yeison de jesus\\desktop\\proyecto-farmacia\\farmacia\\farmacia\\farmacia.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3570B9F3-6CBA-48CF-B16E-95BB78BF8976}|Farmacia\\Farmacia.csproj|solutionrelative:farmacia\\farmacia.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|c:\\users\\yeison de jesus\\desktop\\proyecto-farmacia\\farmacia\\farmaciaweb\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|solutionrelative:farmaciaweb\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3139BCD-ED4D-4036-B012-D6154763B683}|DataBase\\DataBase.csproj|c:\\users\\yeison de jesus\\desktop\\proyecto-farmacia\\farmacia\\database\\consultas_medicamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3139BCD-ED4D-4036-B012-D6154763B683}|DataBase\\DataBase.csproj|solutionrelative:database\\consultas_medicamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|c:\\users\\yeison de jesus\\desktop\\proyecto-farmacia\\farmacia\\farmaciaweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|solutionrelative:farmaciaweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|c:\\users\\yeison de jesus\\desktop\\proyecto-farmacia\\farmacia\\farmaciaweb\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|solutionrelative:farmaciaweb\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|c:\\users\\yeison de jesus\\desktop\\proyecto-farmacia\\farmacia\\farmaciaweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|solutionrelative:farmaciaweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|c:\\users\\yeison de jesus\\desktop\\proyecto-farmacia\\farmacia\\farmaciaweb\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|solutionrelative:farmaciaweb\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A3139BCD-ED4D-4036-B012-D6154763B683}|DataBase\\DataBase.csproj|c:\\users\\yeison de jesus\\desktop\\proyecto-farmacia\\farmacia\\database\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3139BCD-ED4D-4036-B012-D6154763B683}|DataBase\\DataBase.csproj|solutionrelative:database\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3139BCD-ED4D-4036-B012-D6154763B683}|DataBase\\DataBase.csproj|c:\\users\\yeison de jesus\\desktop\\proyecto-farmacia\\farmacia\\database\\consultas_medicamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3139BCD-ED4D-4036-B012-D6154763B683}|DataBase\\DataBase.csproj|solutionrelative:database\\consultas_medicamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A3139BCD-ED4D-4036-B012-D6154763B683}|DataBase\\DataBase.csproj|c:\\users\\yeison de jesus\\desktop\\proyecto-farmacia\\farmacia\\database\\consultas_ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,11 +90,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Views\\Clientes\\Index.cshtml",
+              "RelativeDocumentMoniker": "FarmaciaWeb\\Views\\Clientes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Views\\Clientes\\Index.cshtml",
+              "RelativeToolTip": "FarmaciaWeb\\Views\\Clientes\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-21T21:14:51.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FarmaciaWeb\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FarmaciaWeb\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-21T21:14:43.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "FarmaciaWeb\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "FarmaciaWeb\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T21:14:32.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FarmaciaWeb\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FarmaciaWeb\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T21:14:24.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "FarmaciaWeb\\Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "FarmaciaWeb\\Controllers\\ClientesController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T21:14:09.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Conexion.cs",
               "DocumentMoniker": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\DataBase\\Conexion.cs",
               "RelativeDocumentMoniker": "DataBase\\Conexion.cs",
@@ -86,11 +167,12 @@
               "RelativeToolTip": "DataBase\\Conexion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T12:19:25.967Z"
+              "WhenOpened": "2025-09-18T12:19:25.967Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Historial_Ventas.cs",
               "DocumentMoniker": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\Forms\\Admin_Form\\Tablas\\tblHistorial_Ventas\\Historial_Ventas.cs",
               "RelativeDocumentMoniker": "Farmacia\\Forms\\Admin_Form\\Tablas\\tblHistorial_Ventas\\Historial_Ventas.cs",
@@ -103,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Consultas_Medicamentos.cs",
               "DocumentMoniker": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\DataBase\\Consultas_Medicamentos.cs",
               "RelativeDocumentMoniker": "DataBase\\Consultas_Medicamentos.cs",
@@ -115,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Consultas_DashBoard.cs",
               "DocumentMoniker": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\DataBase\\Consultas_DashBoard.cs",
               "RelativeDocumentMoniker": "DataBase\\Consultas_DashBoard.cs",
@@ -127,20 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Farmacia.csproj",
-              "DocumentMoniker": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\Farmacia.csproj",
-              "RelativeDocumentMoniker": "Farmacia\\Farmacia.csproj",
-              "ToolTip": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\Farmacia.csproj",
-              "RelativeToolTip": "Farmacia\\Farmacia.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-21T12:45:15.437Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Consultas_Historial_Ventas.cs",
               "DocumentMoniker": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\DataBase\\Consultas_Historial_Ventas.cs",
               "RelativeDocumentMoniker": "DataBase\\Consultas_Historial_Ventas.cs",
@@ -152,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Consultas_Clientes.cs",
               "DocumentMoniker": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\DataBase\\Consultas_Clientes.cs",
               "RelativeDocumentMoniker": "DataBase\\Consultas_Clientes.cs",
@@ -164,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Consultas_Ventas.cs",
               "DocumentMoniker": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\DataBase\\Consultas_Ventas.cs",
               "RelativeDocumentMoniker": "DataBase\\Consultas_Ventas.cs",
@@ -176,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Consultas_Historial_Compras.cs",
               "DocumentMoniker": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\DataBase\\Consultas_Historial_Compras.cs",
               "RelativeDocumentMoniker": "DataBase\\Consultas_Historial_Compras.cs",
@@ -188,19 +257,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Historial_Ventas.cs [Design]",
+              "DocumentIndex": 15,
+              "Title": "Historial_Ventas.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\Forms\\Admin_Form\\Tablas\\tblHistorial_Ventas\\Historial_Ventas.cs",
               "RelativeDocumentMoniker": "Farmacia\\Forms\\Admin_Form\\Tablas\\tblHistorial_Ventas\\Historial_Ventas.cs",
-              "ToolTip": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\Forms\\Admin_Form\\Tablas\\tblHistorial_Ventas\\Historial_Ventas.cs [Design]",
-              "RelativeToolTip": "Farmacia\\Forms\\Admin_Form\\Tablas\\tblHistorial_Ventas\\Historial_Ventas.cs [Design]",
+              "ToolTip": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\Forms\\Admin_Form\\Tablas\\tblHistorial_Ventas\\Historial_Ventas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Farmacia\\Forms\\Admin_Form\\Tablas\\tblHistorial_Ventas\\Historial_Ventas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-26T22:22:39.348Z",
-              "EditorCaption": " [Design]"
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Consultas_MedicamentosDAL.cs",
               "DocumentMoniker": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Logica_Datos1\\Consultas_MedicamentosDAL.cs",
               "RelativeDocumentMoniker": "Logica_Datos1\\Consultas_MedicamentosDAL.cs",
@@ -212,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "Escaner.cs",
               "DocumentMoniker": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\Forms\\Admin_Form\\Tablas\\tblMedicamentos\\Escaner.cs",
               "RelativeDocumentMoniker": "Farmacia\\Forms\\Admin_Form\\Tablas\\tblMedicamentos\\Escaner.cs",
@@ -225,19 +294,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Escaner.cs [Design]",
+              "DocumentIndex": 14,
+              "Title": "Escaner.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\Forms\\Admin_Form\\Tablas\\tblMedicamentos\\Escaner.cs",
               "RelativeDocumentMoniker": "Farmacia\\Forms\\Admin_Form\\Tablas\\tblMedicamentos\\Escaner.cs",
-              "ToolTip": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\Forms\\Admin_Form\\Tablas\\tblMedicamentos\\Escaner.cs [Design]",
-              "RelativeToolTip": "Farmacia\\Forms\\Admin_Form\\Tablas\\tblMedicamentos\\Escaner.cs [Design]",
+              "ToolTip": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\Forms\\Admin_Form\\Tablas\\tblMedicamentos\\Escaner.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Farmacia\\Forms\\Admin_Form\\Tablas\\tblMedicamentos\\Escaner.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-21T20:51:39.875Z",
-              "EditorCaption": " [Design]"
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "Medicamentos.cs",
               "DocumentMoniker": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\Forms\\Admin_Form\\Tablas\\tblMedicamentos\\Medicamentos.cs",
               "RelativeDocumentMoniker": "Farmacia\\Forms\\Admin_Form\\Tablas\\tblMedicamentos\\Medicamentos.cs",
@@ -250,19 +319,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Medicamentos.cs [Design]",
+              "DocumentIndex": 17,
+              "Title": "Medicamentos.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\Forms\\Admin_Form\\Tablas\\tblMedicamentos\\Medicamentos.cs",
               "RelativeDocumentMoniker": "Farmacia\\Forms\\Admin_Form\\Tablas\\tblMedicamentos\\Medicamentos.cs",
-              "ToolTip": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\Forms\\Admin_Form\\Tablas\\tblMedicamentos\\Medicamentos.cs [Design]",
-              "RelativeToolTip": "Farmacia\\Forms\\Admin_Form\\Tablas\\tblMedicamentos\\Medicamentos.cs [Design]",
+              "ToolTip": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\Forms\\Admin_Form\\Tablas\\tblMedicamentos\\Medicamentos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Farmacia\\Forms\\Admin_Form\\Tablas\\tblMedicamentos\\Medicamentos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-21T14:17:25.68Z",
-              "EditorCaption": " [Design]"
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "Definir_Medicamentos.cs",
               "DocumentMoniker": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Entidades\\Definir_Medicamentos.cs",
               "RelativeDocumentMoniker": "Entidades\\Definir_Medicamentos.cs",
