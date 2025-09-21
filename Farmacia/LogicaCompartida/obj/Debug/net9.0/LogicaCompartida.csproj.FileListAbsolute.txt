@@ -1,0 +1,13 @@
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\LogicaCompartida\obj\Debug\net9.0\LogicaCompartida.csproj.AssemblyReference.cache
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\LogicaCompartida\obj\Debug\net9.0\LogicaCompartida.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\LogicaCompartida\obj\Debug\net9.0\LogicaCompartida.AssemblyInfoInputs.cache
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\LogicaCompartida\obj\Debug\net9.0\LogicaCompartida.AssemblyInfo.cs
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\LogicaCompartida\obj\Debug\net9.0\LogicaCompartida.csproj.CoreCompileInputs.cache
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\LogicaCompartida\obj\Debug\net9.0\LogicaCompartida.sourcelink.json
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\LogicaCompartida\bin\Debug\net9.0\LogicaCompartida.deps.json
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\LogicaCompartida\bin\Debug\net9.0\LogicaCompartida.dll
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\LogicaCompartida\bin\Debug\net9.0\LogicaCompartida.pdb
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\LogicaCompartida\obj\Debug\net9.0\LogicaCompartida.dll
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\LogicaCompartida\obj\Debug\net9.0\refint\LogicaCompartida.dll
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\LogicaCompartida\obj\Debug\net9.0\LogicaCompartida.pdb
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\LogicaCompartida\obj\Debug\net9.0\ref\LogicaCompartida.dll

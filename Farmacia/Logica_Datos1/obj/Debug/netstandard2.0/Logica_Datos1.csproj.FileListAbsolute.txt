@@ -1,0 +1,14 @@
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Logica_Datos1\bin\Debug\netstandard2.0\Logica_Datos1.deps.json
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Logica_Datos1\bin\Debug\netstandard2.0\Logica_Datos1.dll
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Logica_Datos1\bin\Debug\netstandard2.0\Logica_Datos1.pdb
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Logica_Datos1\bin\Debug\netstandard2.0\DataBase.dll
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Logica_Datos1\bin\Debug\netstandard2.0\Entidades.dll
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Logica_Datos1\bin\Debug\netstandard2.0\DataBase.pdb
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Logica_Datos1\bin\Debug\netstandard2.0\Entidades.pdb
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Logica_Datos1\obj\Debug\netstandard2.0\Logica_Datos1.csproj.AssemblyReference.cache
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Logica_Datos1\obj\Debug\netstandard2.0\Logica_Datos1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Logica_Datos1\obj\Debug\netstandard2.0\Logica_Datos1.csproj.CoreCompileInputs.cache
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Logica_Datos1\obj\Debug\netstandard2.0\Logica_Datos1.sourcelink.json
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Logica_Datos1\obj\Debug\netstandard2.0\Logica_D.B8B0B212.Up2Date
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Logica_Datos1\obj\Debug\netstandard2.0\Logica_Datos1.dll
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Logica_Datos1\obj\Debug\netstandard2.0\Logica_Datos1.pdb
