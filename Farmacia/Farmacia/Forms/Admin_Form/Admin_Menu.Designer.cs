@@ -28,453 +28,482 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.sidebar = new System.Windows.Forms.FlowLayoutPanel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.menuButton = new System.Windows.Forms.PictureBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.btnHome = new System.Windows.Forms.Button();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.btnMedicamentos = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.btnVender = new System.Windows.Forms.Button();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.btnComprar = new System.Windows.Forms.Button();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.btnProveedores = new System.Windows.Forms.Button();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.btnClientes = new System.Windows.Forms.Button();
-            this.HistorialesContainer = new System.Windows.Forms.Panel();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.Historial_Usuarios = new System.Windows.Forms.Button();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.btnHistorial_compras = new System.Windows.Forms.Button();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.btnHistorial_venta = new System.Windows.Forms.Button();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.btnHistorial = new System.Windows.Forms.Button();
-            this.sidebarTimer = new System.Windows.Forms.Timer(this.components);
-            this.HistorialesTimer = new System.Windows.Forms.Timer(this.components);
-            this.panelChildForm = new System.Windows.Forms.Panel();
-            this.btnCerrar = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.sidebar.SuspendLayout();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.menuButton)).BeginInit();
-            this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.panel7.SuspendLayout();
-            this.HistorialesContainer.SuspendLayout();
-            this.panel11.SuspendLayout();
-            this.panel10.SuspendLayout();
-            this.panel9.SuspendLayout();
-            this.panel8.SuspendLayout();
-            this.panelChildForm.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.SuspendLayout();
+            components = new System.ComponentModel.Container();
+            sidebar = new System.Windows.Forms.FlowLayoutPanel();
+            panel1 = new System.Windows.Forms.Panel();
+            label1 = new System.Windows.Forms.Label();
+            menuButton = new System.Windows.Forms.PictureBox();
+            panel2 = new System.Windows.Forms.Panel();
+            btnHome = new System.Windows.Forms.Button();
+            panel3 = new System.Windows.Forms.Panel();
+            btnMedicamentos = new System.Windows.Forms.Button();
+            panel4 = new System.Windows.Forms.Panel();
+            btnVender = new System.Windows.Forms.Button();
+            panel5 = new System.Windows.Forms.Panel();
+            btnComprar = new System.Windows.Forms.Button();
+            panel6 = new System.Windows.Forms.Panel();
+            btnProveedores = new System.Windows.Forms.Button();
+            panel7 = new System.Windows.Forms.Panel();
+            btnClientes = new System.Windows.Forms.Button();
+            HistorialesContainer = new System.Windows.Forms.Panel();
+            panel11 = new System.Windows.Forms.Panel();
+            Historial_Usuarios = new System.Windows.Forms.Button();
+            panel10 = new System.Windows.Forms.Panel();
+            btnHistorial_compras = new System.Windows.Forms.Button();
+            panel9 = new System.Windows.Forms.Panel();
+            btnHistorial_venta = new System.Windows.Forms.Button();
+            panel8 = new System.Windows.Forms.Panel();
+            btnHistorial = new System.Windows.Forms.Button();
+            sidebarTimer = new System.Windows.Forms.Timer(components);
+            HistorialesTimer = new System.Windows.Forms.Timer(components);
+            panelChildForm = new System.Windows.Forms.Panel();
+            btnCerrar = new System.Windows.Forms.Button();
+            pictureBox1 = new System.Windows.Forms.PictureBox();
+            sidebar.SuspendLayout();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)menuButton).BeginInit();
+            panel2.SuspendLayout();
+            panel3.SuspendLayout();
+            panel4.SuspendLayout();
+            panel5.SuspendLayout();
+            panel6.SuspendLayout();
+            panel7.SuspendLayout();
+            HistorialesContainer.SuspendLayout();
+            panel11.SuspendLayout();
+            panel10.SuspendLayout();
+            panel9.SuspendLayout();
+            panel8.SuspendLayout();
+            panelChildForm.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            SuspendLayout();
             // 
             // sidebar
             // 
-            this.sidebar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(40)))), ((int)(((byte)(45)))));
-            this.sidebar.Controls.Add(this.panel1);
-            this.sidebar.Controls.Add(this.panel2);
-            this.sidebar.Controls.Add(this.panel3);
-            this.sidebar.Controls.Add(this.panel4);
-            this.sidebar.Controls.Add(this.panel5);
-            this.sidebar.Controls.Add(this.panel6);
-            this.sidebar.Controls.Add(this.panel7);
-            this.sidebar.Controls.Add(this.HistorialesContainer);
-            this.sidebar.Dock = System.Windows.Forms.DockStyle.Left;
-            this.sidebar.Location = new System.Drawing.Point(0, 0);
-            this.sidebar.MaximumSize = new System.Drawing.Size(245, 636);
-            this.sidebar.MinimumSize = new System.Drawing.Size(69, 636);
-            this.sidebar.Name = "sidebar";
-            this.sidebar.Size = new System.Drawing.Size(245, 636);
-            this.sidebar.TabIndex = 0;
-            this.sidebar.Paint += new System.Windows.Forms.PaintEventHandler(this.sidebar_Paint);
+            sidebar.BackColor = System.Drawing.Color.FromArgb(35, 40, 45);
+            sidebar.Controls.Add(panel1);
+            sidebar.Controls.Add(panel2);
+            sidebar.Controls.Add(panel3);
+            sidebar.Controls.Add(panel4);
+            sidebar.Controls.Add(panel5);
+            sidebar.Controls.Add(panel6);
+            sidebar.Controls.Add(panel7);
+            sidebar.Controls.Add(HistorialesContainer);
+            sidebar.Dock = System.Windows.Forms.DockStyle.Left;
+            sidebar.Location = new System.Drawing.Point(0, 0);
+            sidebar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            sidebar.MaximumSize = new System.Drawing.Size(286, 734);
+            sidebar.MinimumSize = new System.Drawing.Size(80, 734);
+            sidebar.Name = "sidebar";
+            sidebar.Size = new System.Drawing.Size(286, 734);
+            sidebar.TabIndex = 0;
+            sidebar.Paint += sidebar_Paint;
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.menuButton);
-            this.panel1.Location = new System.Drawing.Point(3, 3);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(242, 107);
-            this.panel1.TabIndex = 0;
+            panel1.Controls.Add(label1);
+            panel1.Controls.Add(menuButton);
+            panel1.Location = new System.Drawing.Point(4, 3);
+            panel1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            panel1.Name = "panel1";
+            panel1.Size = new System.Drawing.Size(282, 123);
+            panel1.TabIndex = 0;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(71, 35);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 20);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Menu";
+            label1.AutoSize = true;
+            label1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            label1.ForeColor = System.Drawing.Color.White;
+            label1.Location = new System.Drawing.Point(83, 40);
+            label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(46, 20);
+            label1.TabIndex = 1;
+            label1.Text = "Menu";
             // 
             // menuButton
             // 
-            this.menuButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.menuButton.Image = global::Farmacia.Properties.Resources.Menu;
-            this.menuButton.Location = new System.Drawing.Point(14, 29);
-            this.menuButton.Name = "menuButton";
-            this.menuButton.Size = new System.Drawing.Size(32, 31);
-            this.menuButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.menuButton.TabIndex = 0;
-            this.menuButton.TabStop = false;
-            this.menuButton.Click += new System.EventHandler(this.menuButton_Click);
+            menuButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            menuButton.Image = Properties.Resources.Menu;
+            menuButton.Location = new System.Drawing.Point(16, 33);
+            menuButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            menuButton.Name = "menuButton";
+            menuButton.Size = new System.Drawing.Size(37, 36);
+            menuButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            menuButton.TabIndex = 0;
+            menuButton.TabStop = false;
+            menuButton.Click += menuButton_Click;
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.btnHome);
-            this.panel2.Location = new System.Drawing.Point(3, 116);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(210, 42);
-            this.panel2.TabIndex = 1;
+            panel2.Controls.Add(btnHome);
+            panel2.Location = new System.Drawing.Point(4, 132);
+            panel2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            panel2.Name = "panel2";
+            panel2.Size = new System.Drawing.Size(245, 48);
+            panel2.TabIndex = 1;
             // 
             // btnHome
             // 
-            this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHome.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHome.ForeColor = System.Drawing.Color.White;
-            this.btnHome.Image = global::Farmacia.Properties.Resources.casa;
-            this.btnHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHome.Location = new System.Drawing.Point(-22, -9);
-            this.btnHome.Name = "btnHome";
-            this.btnHome.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
-            this.btnHome.Size = new System.Drawing.Size(264, 61);
-            this.btnHome.TabIndex = 0;
-            this.btnHome.Text = "            Home";
-            this.btnHome.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHome.UseVisualStyleBackColor = true;
-            this.btnHome.Click += new System.EventHandler(this.button1_Click);
+            btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnHome.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            btnHome.ForeColor = System.Drawing.Color.White;
+            btnHome.Image = Properties.Resources.casa;
+            btnHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            btnHome.Location = new System.Drawing.Point(-26, -10);
+            btnHome.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            btnHome.Name = "btnHome";
+            btnHome.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            btnHome.Size = new System.Drawing.Size(308, 70);
+            btnHome.TabIndex = 0;
+            btnHome.Text = "            Home";
+            btnHome.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            btnHome.UseVisualStyleBackColor = true;
+            btnHome.Click += button1_Click;
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.btnMedicamentos);
-            this.panel3.Location = new System.Drawing.Point(3, 164);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(210, 42);
-            this.panel3.TabIndex = 2;
+            panel3.Controls.Add(btnMedicamentos);
+            panel3.Location = new System.Drawing.Point(4, 186);
+            panel3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            panel3.Name = "panel3";
+            panel3.Size = new System.Drawing.Size(245, 48);
+            panel3.TabIndex = 2;
             // 
             // btnMedicamentos
             // 
-            this.btnMedicamentos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMedicamentos.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMedicamentos.ForeColor = System.Drawing.Color.White;
-            this.btnMedicamentos.Image = global::Farmacia.Properties.Resources.Medicamentos;
-            this.btnMedicamentos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMedicamentos.Location = new System.Drawing.Point(-22, -9);
-            this.btnMedicamentos.Name = "btnMedicamentos";
-            this.btnMedicamentos.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
-            this.btnMedicamentos.Size = new System.Drawing.Size(246, 61);
-            this.btnMedicamentos.TabIndex = 0;
-            this.btnMedicamentos.Text = "            Medicamentos";
-            this.btnMedicamentos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMedicamentos.UseVisualStyleBackColor = true;
-            this.btnMedicamentos.Click += new System.EventHandler(this.btnMedicamentos_Click);
+            btnMedicamentos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnMedicamentos.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            btnMedicamentos.ForeColor = System.Drawing.Color.White;
+            btnMedicamentos.Image = Properties.Resources.Medicamentos;
+            btnMedicamentos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            btnMedicamentos.Location = new System.Drawing.Point(-26, -10);
+            btnMedicamentos.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            btnMedicamentos.Name = "btnMedicamentos";
+            btnMedicamentos.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            btnMedicamentos.Size = new System.Drawing.Size(287, 70);
+            btnMedicamentos.TabIndex = 0;
+            btnMedicamentos.Text = "            Medicamentos";
+            btnMedicamentos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            btnMedicamentos.UseVisualStyleBackColor = true;
+            btnMedicamentos.Click += btnMedicamentos_Click;
             // 
             // panel4
             // 
-            this.panel4.Controls.Add(this.btnVender);
-            this.panel4.Location = new System.Drawing.Point(3, 212);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(210, 42);
-            this.panel4.TabIndex = 2;
+            panel4.Controls.Add(btnVender);
+            panel4.Location = new System.Drawing.Point(4, 240);
+            panel4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            panel4.Name = "panel4";
+            panel4.Size = new System.Drawing.Size(245, 48);
+            panel4.TabIndex = 2;
             // 
             // btnVender
             // 
-            this.btnVender.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVender.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVender.ForeColor = System.Drawing.Color.White;
-            this.btnVender.Image = global::Farmacia.Properties.Resources.vender;
-            this.btnVender.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVender.Location = new System.Drawing.Point(-22, -9);
-            this.btnVender.Name = "btnVender";
-            this.btnVender.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
-            this.btnVender.Size = new System.Drawing.Size(246, 61);
-            this.btnVender.TabIndex = 0;
-            this.btnVender.Text = "            Vender";
-            this.btnVender.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVender.UseVisualStyleBackColor = true;
-            this.btnVender.Click += new System.EventHandler(this.btnVender_Click);
+            btnVender.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnVender.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            btnVender.ForeColor = System.Drawing.Color.White;
+            btnVender.Image = Properties.Resources.vender;
+            btnVender.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            btnVender.Location = new System.Drawing.Point(-26, -10);
+            btnVender.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            btnVender.Name = "btnVender";
+            btnVender.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            btnVender.Size = new System.Drawing.Size(287, 70);
+            btnVender.TabIndex = 0;
+            btnVender.Text = "            Vender";
+            btnVender.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            btnVender.UseVisualStyleBackColor = true;
+            btnVender.Click += btnVender_Click;
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.btnComprar);
-            this.panel5.Location = new System.Drawing.Point(3, 260);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(210, 42);
-            this.panel5.TabIndex = 3;
+            panel5.Controls.Add(btnComprar);
+            panel5.Location = new System.Drawing.Point(4, 294);
+            panel5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            panel5.Name = "panel5";
+            panel5.Size = new System.Drawing.Size(245, 48);
+            panel5.TabIndex = 3;
             // 
             // btnComprar
             // 
-            this.btnComprar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnComprar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnComprar.ForeColor = System.Drawing.Color.White;
-            this.btnComprar.Image = global::Farmacia.Properties.Resources.Compras;
-            this.btnComprar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnComprar.Location = new System.Drawing.Point(-22, -9);
-            this.btnComprar.Name = "btnComprar";
-            this.btnComprar.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
-            this.btnComprar.Size = new System.Drawing.Size(246, 61);
-            this.btnComprar.TabIndex = 0;
-            this.btnComprar.Text = "            Comprar";
-            this.btnComprar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnComprar.UseVisualStyleBackColor = true;
-            this.btnComprar.Click += new System.EventHandler(this.btnComprar_Click);
+            btnComprar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnComprar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            btnComprar.ForeColor = System.Drawing.Color.White;
+            btnComprar.Image = Properties.Resources.Compras;
+            btnComprar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            btnComprar.Location = new System.Drawing.Point(-26, -10);
+            btnComprar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            btnComprar.Name = "btnComprar";
+            btnComprar.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            btnComprar.Size = new System.Drawing.Size(287, 70);
+            btnComprar.TabIndex = 0;
+            btnComprar.Text = "            Comprar";
+            btnComprar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            btnComprar.UseVisualStyleBackColor = true;
+            btnComprar.Click += btnComprar_Click;
             // 
             // panel6
             // 
-            this.panel6.Controls.Add(this.btnProveedores);
-            this.panel6.Location = new System.Drawing.Point(3, 308);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(210, 42);
-            this.panel6.TabIndex = 4;
+            panel6.Controls.Add(btnProveedores);
+            panel6.Location = new System.Drawing.Point(4, 348);
+            panel6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            panel6.Name = "panel6";
+            panel6.Size = new System.Drawing.Size(245, 48);
+            panel6.TabIndex = 4;
             // 
             // btnProveedores
             // 
-            this.btnProveedores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnProveedores.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProveedores.ForeColor = System.Drawing.Color.White;
-            this.btnProveedores.Image = global::Farmacia.Properties.Resources.Proveedores;
-            this.btnProveedores.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnProveedores.Location = new System.Drawing.Point(-22, -9);
-            this.btnProveedores.Name = "btnProveedores";
-            this.btnProveedores.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
-            this.btnProveedores.Size = new System.Drawing.Size(246, 61);
-            this.btnProveedores.TabIndex = 0;
-            this.btnProveedores.Text = "            Proveedores";
-            this.btnProveedores.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnProveedores.UseVisualStyleBackColor = true;
-            this.btnProveedores.Click += new System.EventHandler(this.btnProveedores_Click);
+            btnProveedores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnProveedores.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            btnProveedores.ForeColor = System.Drawing.Color.White;
+            btnProveedores.Image = Properties.Resources.Proveedores;
+            btnProveedores.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            btnProveedores.Location = new System.Drawing.Point(-26, -10);
+            btnProveedores.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            btnProveedores.Name = "btnProveedores";
+            btnProveedores.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            btnProveedores.Size = new System.Drawing.Size(287, 70);
+            btnProveedores.TabIndex = 0;
+            btnProveedores.Text = "            Proveedores";
+            btnProveedores.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            btnProveedores.UseVisualStyleBackColor = true;
+            btnProveedores.Click += btnProveedores_Click;
             // 
             // panel7
             // 
-            this.panel7.Controls.Add(this.btnClientes);
-            this.panel7.Location = new System.Drawing.Point(3, 356);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(210, 42);
-            this.panel7.TabIndex = 5;
+            panel7.Controls.Add(btnClientes);
+            panel7.Location = new System.Drawing.Point(4, 402);
+            panel7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            panel7.Name = "panel7";
+            panel7.Size = new System.Drawing.Size(245, 48);
+            panel7.TabIndex = 5;
             // 
             // btnClientes
             // 
-            this.btnClientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClientes.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClientes.ForeColor = System.Drawing.Color.White;
-            this.btnClientes.Image = global::Farmacia.Properties.Resources.Clientes1;
-            this.btnClientes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClientes.Location = new System.Drawing.Point(-22, -9);
-            this.btnClientes.Name = "btnClientes";
-            this.btnClientes.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
-            this.btnClientes.Size = new System.Drawing.Size(246, 61);
-            this.btnClientes.TabIndex = 0;
-            this.btnClientes.Text = "            Clientes";
-            this.btnClientes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClientes.UseVisualStyleBackColor = true;
-            this.btnClientes.Click += new System.EventHandler(this.btnClientes_Click);
+            btnClientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnClientes.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            btnClientes.ForeColor = System.Drawing.Color.White;
+            btnClientes.Image = Properties.Resources.Clientes1;
+            btnClientes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            btnClientes.Location = new System.Drawing.Point(-26, -10);
+            btnClientes.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            btnClientes.Name = "btnClientes";
+            btnClientes.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            btnClientes.Size = new System.Drawing.Size(287, 70);
+            btnClientes.TabIndex = 0;
+            btnClientes.Text = "            Clientes";
+            btnClientes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            btnClientes.UseVisualStyleBackColor = true;
+            btnClientes.Click += btnClientes_Click;
             // 
             // HistorialesContainer
             // 
-            this.HistorialesContainer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(40)))), ((int)(((byte)(45)))));
-            this.HistorialesContainer.Controls.Add(this.panel11);
-            this.HistorialesContainer.Controls.Add(this.panel10);
-            this.HistorialesContainer.Controls.Add(this.panel9);
-            this.HistorialesContainer.Controls.Add(this.panel8);
-            this.HistorialesContainer.Location = new System.Drawing.Point(3, 404);
-            this.HistorialesContainer.MaximumSize = new System.Drawing.Size(206, 197);
-            this.HistorialesContainer.MinimumSize = new System.Drawing.Size(206, 46);
-            this.HistorialesContainer.Name = "HistorialesContainer";
-            this.HistorialesContainer.Size = new System.Drawing.Size(206, 46);
-            this.HistorialesContainer.TabIndex = 6;
+            HistorialesContainer.BackColor = System.Drawing.Color.FromArgb(35, 40, 45);
+            HistorialesContainer.Controls.Add(panel11);
+            HistorialesContainer.Controls.Add(panel10);
+            HistorialesContainer.Controls.Add(panel9);
+            HistorialesContainer.Controls.Add(panel8);
+            HistorialesContainer.Location = new System.Drawing.Point(4, 456);
+            HistorialesContainer.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            HistorialesContainer.MaximumSize = new System.Drawing.Size(240, 227);
+            HistorialesContainer.MinimumSize = new System.Drawing.Size(240, 53);
+            HistorialesContainer.Name = "HistorialesContainer";
+            HistorialesContainer.Size = new System.Drawing.Size(240, 53);
+            HistorialesContainer.TabIndex = 6;
             // 
             // panel11
             // 
-            this.panel11.Controls.Add(this.Historial_Usuarios);
-            this.panel11.Location = new System.Drawing.Point(3, 148);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(221, 46);
-            this.panel11.TabIndex = 7;
+            panel11.Controls.Add(Historial_Usuarios);
+            panel11.Location = new System.Drawing.Point(4, 171);
+            panel11.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            panel11.Name = "panel11";
+            panel11.Size = new System.Drawing.Size(258, 53);
+            panel11.TabIndex = 7;
             // 
             // Historial_Usuarios
             // 
-            this.Historial_Usuarios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(55)))), ((int)(((byte)(60)))));
-            this.Historial_Usuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Historial_Usuarios.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Historial_Usuarios.ForeColor = System.Drawing.Color.White;
-            this.Historial_Usuarios.Image = global::Farmacia.Properties.Resources.punto16;
-            this.Historial_Usuarios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Historial_Usuarios.Location = new System.Drawing.Point(-22, -8);
-            this.Historial_Usuarios.Name = "Historial_Usuarios";
-            this.Historial_Usuarios.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
-            this.Historial_Usuarios.Size = new System.Drawing.Size(246, 61);
-            this.Historial_Usuarios.TabIndex = 0;
-            this.Historial_Usuarios.Text = "            Usuarios";
-            this.Historial_Usuarios.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Historial_Usuarios.UseVisualStyleBackColor = false;
-            this.Historial_Usuarios.Click += new System.EventHandler(this.Historial_Usuarios_Click);
+            Historial_Usuarios.BackColor = System.Drawing.Color.FromArgb(50, 55, 60);
+            Historial_Usuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            Historial_Usuarios.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            Historial_Usuarios.ForeColor = System.Drawing.Color.White;
+            Historial_Usuarios.Image = Properties.Resources.punto16;
+            Historial_Usuarios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            Historial_Usuarios.Location = new System.Drawing.Point(-26, -9);
+            Historial_Usuarios.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            Historial_Usuarios.Name = "Historial_Usuarios";
+            Historial_Usuarios.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            Historial_Usuarios.Size = new System.Drawing.Size(287, 70);
+            Historial_Usuarios.TabIndex = 0;
+            Historial_Usuarios.Text = "            Usuarios";
+            Historial_Usuarios.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            Historial_Usuarios.UseVisualStyleBackColor = false;
+            Historial_Usuarios.Click += Historial_Usuarios_Click;
             // 
             // panel10
             // 
-            this.panel10.Controls.Add(this.btnHistorial_compras);
-            this.panel10.Location = new System.Drawing.Point(3, 99);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(221, 46);
-            this.panel10.TabIndex = 7;
+            panel10.Controls.Add(btnHistorial_compras);
+            panel10.Location = new System.Drawing.Point(4, 114);
+            panel10.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            panel10.Name = "panel10";
+            panel10.Size = new System.Drawing.Size(258, 53);
+            panel10.TabIndex = 7;
             // 
             // btnHistorial_compras
             // 
-            this.btnHistorial_compras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(55)))), ((int)(((byte)(60)))));
-            this.btnHistorial_compras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHistorial_compras.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHistorial_compras.ForeColor = System.Drawing.Color.White;
-            this.btnHistorial_compras.Image = global::Farmacia.Properties.Resources.punto16;
-            this.btnHistorial_compras.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHistorial_compras.Location = new System.Drawing.Point(-22, -9);
-            this.btnHistorial_compras.Name = "btnHistorial_compras";
-            this.btnHistorial_compras.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
-            this.btnHistorial_compras.Size = new System.Drawing.Size(246, 61);
-            this.btnHistorial_compras.TabIndex = 0;
-            this.btnHistorial_compras.Text = "            Compras";
-            this.btnHistorial_compras.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHistorial_compras.UseVisualStyleBackColor = false;
-            this.btnHistorial_compras.Click += new System.EventHandler(this.btnHistorial_compras_Click);
+            btnHistorial_compras.BackColor = System.Drawing.Color.FromArgb(50, 55, 60);
+            btnHistorial_compras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnHistorial_compras.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            btnHistorial_compras.ForeColor = System.Drawing.Color.White;
+            btnHistorial_compras.Image = Properties.Resources.punto16;
+            btnHistorial_compras.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            btnHistorial_compras.Location = new System.Drawing.Point(-26, -10);
+            btnHistorial_compras.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            btnHistorial_compras.Name = "btnHistorial_compras";
+            btnHistorial_compras.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            btnHistorial_compras.Size = new System.Drawing.Size(287, 70);
+            btnHistorial_compras.TabIndex = 0;
+            btnHistorial_compras.Text = "            Compras";
+            btnHistorial_compras.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            btnHistorial_compras.UseVisualStyleBackColor = false;
+            btnHistorial_compras.Click += btnHistorial_compras_Click;
             // 
             // panel9
             // 
-            this.panel9.Controls.Add(this.btnHistorial_venta);
-            this.panel9.Location = new System.Drawing.Point(4, 51);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(221, 46);
-            this.panel9.TabIndex = 6;
+            panel9.Controls.Add(btnHistorial_venta);
+            panel9.Location = new System.Drawing.Point(5, 59);
+            panel9.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            panel9.Name = "panel9";
+            panel9.Size = new System.Drawing.Size(258, 53);
+            panel9.TabIndex = 6;
             // 
             // btnHistorial_venta
             // 
-            this.btnHistorial_venta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(55)))), ((int)(((byte)(60)))));
-            this.btnHistorial_venta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHistorial_venta.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHistorial_venta.ForeColor = System.Drawing.Color.White;
-            this.btnHistorial_venta.Image = global::Farmacia.Properties.Resources.punto16;
-            this.btnHistorial_venta.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHistorial_venta.Location = new System.Drawing.Point(-22, -9);
-            this.btnHistorial_venta.Name = "btnHistorial_venta";
-            this.btnHistorial_venta.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
-            this.btnHistorial_venta.Size = new System.Drawing.Size(246, 61);
-            this.btnHistorial_venta.TabIndex = 0;
-            this.btnHistorial_venta.Text = "            Ventas";
-            this.btnHistorial_venta.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHistorial_venta.UseVisualStyleBackColor = false;
-            this.btnHistorial_venta.Click += new System.EventHandler(this.btnHistorial_venta_Click);
+            btnHistorial_venta.BackColor = System.Drawing.Color.FromArgb(50, 55, 60);
+            btnHistorial_venta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnHistorial_venta.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            btnHistorial_venta.ForeColor = System.Drawing.Color.White;
+            btnHistorial_venta.Image = Properties.Resources.punto16;
+            btnHistorial_venta.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            btnHistorial_venta.Location = new System.Drawing.Point(-26, -10);
+            btnHistorial_venta.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            btnHistorial_venta.Name = "btnHistorial_venta";
+            btnHistorial_venta.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            btnHistorial_venta.Size = new System.Drawing.Size(287, 70);
+            btnHistorial_venta.TabIndex = 0;
+            btnHistorial_venta.Text = "            Ventas";
+            btnHistorial_venta.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            btnHistorial_venta.UseVisualStyleBackColor = false;
+            btnHistorial_venta.Click += btnHistorial_venta_Click;
             // 
             // panel8
             // 
-            this.panel8.Controls.Add(this.btnHistorial);
-            this.panel8.Location = new System.Drawing.Point(3, 3);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(221, 46);
-            this.panel8.TabIndex = 5;
+            panel8.Controls.Add(btnHistorial);
+            panel8.Location = new System.Drawing.Point(4, 3);
+            panel8.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            panel8.Name = "panel8";
+            panel8.Size = new System.Drawing.Size(258, 53);
+            panel8.TabIndex = 5;
             // 
             // btnHistorial
             // 
-            this.btnHistorial.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(40)))), ((int)(((byte)(45)))));
-            this.btnHistorial.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHistorial.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHistorial.ForeColor = System.Drawing.Color.White;
-            this.btnHistorial.Image = global::Farmacia.Properties.Resources.Historial;
-            this.btnHistorial.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHistorial.Location = new System.Drawing.Point(-24, -10);
-            this.btnHistorial.Name = "btnHistorial";
-            this.btnHistorial.Padding = new System.Windows.Forms.Padding(30, 0, 0, 0);
-            this.btnHistorial.Size = new System.Drawing.Size(246, 61);
-            this.btnHistorial.TabIndex = 0;
-            this.btnHistorial.Text = "            Historiales";
-            this.btnHistorial.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHistorial.UseVisualStyleBackColor = false;
-            this.btnHistorial.Click += new System.EventHandler(this.btnHistorial_Click);
+            btnHistorial.BackColor = System.Drawing.Color.FromArgb(35, 40, 45);
+            btnHistorial.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnHistorial.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            btnHistorial.ForeColor = System.Drawing.Color.White;
+            btnHistorial.Image = Properties.Resources.Historial;
+            btnHistorial.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            btnHistorial.Location = new System.Drawing.Point(-28, -12);
+            btnHistorial.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            btnHistorial.Name = "btnHistorial";
+            btnHistorial.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            btnHistorial.Size = new System.Drawing.Size(287, 70);
+            btnHistorial.TabIndex = 0;
+            btnHistorial.Text = "            Historiales";
+            btnHistorial.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            btnHistorial.UseVisualStyleBackColor = false;
+            btnHistorial.Click += btnHistorial_Click;
             // 
             // sidebarTimer
             // 
-            this.sidebarTimer.Interval = 10;
-            this.sidebarTimer.Tick += new System.EventHandler(this.sidebarTimer_Tick);
+            sidebarTimer.Interval = 10;
+            sidebarTimer.Tick += sidebarTimer_Tick;
             // 
             // HistorialesTimer
             // 
-            this.HistorialesTimer.Interval = 10;
-            this.HistorialesTimer.Tick += new System.EventHandler(this.HistorialesTimer_Tick);
+            HistorialesTimer.Interval = 10;
+            HistorialesTimer.Tick += HistorialesTimer_Tick;
             // 
             // panelChildForm
             // 
-            this.panelChildForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.panelChildForm.Controls.Add(this.btnCerrar);
-            this.panelChildForm.Controls.Add(this.pictureBox1);
-            this.panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelChildForm.Location = new System.Drawing.Point(245, 0);
-            this.panelChildForm.Name = "panelChildForm";
-            this.panelChildForm.Size = new System.Drawing.Size(940, 635);
-            this.panelChildForm.TabIndex = 1;
+            panelChildForm.BackColor = System.Drawing.Color.FromArgb(240, 240, 240);
+            panelChildForm.Controls.Add(btnCerrar);
+            panelChildForm.Controls.Add(pictureBox1);
+            panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
+            panelChildForm.Location = new System.Drawing.Point(286, 0);
+            panelChildForm.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            panelChildForm.Name = "panelChildForm";
+            panelChildForm.Size = new System.Drawing.Size(1096, 733);
+            panelChildForm.TabIndex = 1;
             // 
             // btnCerrar
             // 
-            this.btnCerrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.btnCerrar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.btnCerrar.FlatAppearance.BorderSize = 0;
-            this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCerrar.ForeColor = System.Drawing.Color.Black;
-            this.btnCerrar.Location = new System.Drawing.Point(863, 12);
-            this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(65, 33);
-            this.btnCerrar.TabIndex = 27;
-            this.btnCerrar.Text = "X";
-            this.btnCerrar.UseVisualStyleBackColor = false;
-            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
+            btnCerrar.BackColor = System.Drawing.Color.FromArgb(240, 240, 240);
+            btnCerrar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(240, 240, 240);
+            btnCerrar.FlatAppearance.BorderSize = 0;
+            btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            btnCerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            btnCerrar.ForeColor = System.Drawing.Color.Black;
+            btnCerrar.Location = new System.Drawing.Point(1007, 14);
+            btnCerrar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            btnCerrar.Name = "btnCerrar";
+            btnCerrar.Size = new System.Drawing.Size(76, 38);
+            btnCerrar.TabIndex = 27;
+            btnCerrar.Text = "X";
+            btnCerrar.UseVisualStyleBackColor = false;
+            btnCerrar.Click += btnCerrar_Click;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.Image = global::Farmacia.Properties.Resources.logo2;
-            this.pictureBox1.Location = new System.Drawing.Point(264, 250);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(400, 100);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            pictureBox1.Image = Properties.Resources.logo2;
+            pictureBox1.Location = new System.Drawing.Point(308, 288);
+            pictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new System.Drawing.Size(400, 100);
+            pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
             // 
             // Admin_Menu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.ClientSize = new System.Drawing.Size(1185, 635);
-            this.Controls.Add(this.panelChildForm);
-            this.Controls.Add(this.sidebar);
-            this.Name = "Admin_Menu";
-            this.Text = "Admin_menu";
-            this.Load += new System.EventHandler(this.Admin_Menu_Load);
-            this.sidebar.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.menuButton)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
-            this.panel6.ResumeLayout(false);
-            this.panel7.ResumeLayout(false);
-            this.HistorialesContainer.ResumeLayout(false);
-            this.panel11.ResumeLayout(false);
-            this.panel10.ResumeLayout(false);
-            this.panel9.ResumeLayout(false);
-            this.panel8.ResumeLayout(false);
-            this.panelChildForm.ResumeLayout(false);
-            this.panelChildForm.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.ResumeLayout(false);
+            AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            BackColor = System.Drawing.Color.FromArgb(240, 240, 240);
+            ClientSize = new System.Drawing.Size(1382, 733);
+            Controls.Add(panelChildForm);
+            Controls.Add(sidebar);
+            Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            Name = "Admin_Menu";
+            Text = "Admin_menu";
+            Load += Admin_Menu_Load;
+            sidebar.ResumeLayout(false);
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)menuButton).EndInit();
+            panel2.ResumeLayout(false);
+            panel3.ResumeLayout(false);
+            panel4.ResumeLayout(false);
+            panel5.ResumeLayout(false);
+            panel6.ResumeLayout(false);
+            panel7.ResumeLayout(false);
+            HistorialesContainer.ResumeLayout(false);
+            panel11.ResumeLayout(false);
+            panel10.ResumeLayout(false);
+            panel9.ResumeLayout(false);
+            panel8.ResumeLayout(false);
+            panelChildForm.ResumeLayout(false);
+            panelChildForm.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ResumeLayout(false);
 
         }
 

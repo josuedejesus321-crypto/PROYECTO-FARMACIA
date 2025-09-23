@@ -1,4 +1,4 @@
-ï»¿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,11 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static Logica_Datos1.Consultas_MedicamentosDAL;
-using Entidades;
+using LogicaCompartida.Entidades;
 using Farmacia.Forms.Admin_Form.Tablas.tblMedicamentos;
 using IronBarCode;
 using System.IO;
 using System.Security.Cryptography;
+using Farmacia.Config;
 
 
 
@@ -51,10 +52,10 @@ namespace Farmacia.Forms.Admin_Form.Tablas
         }
 
 
-        private void btnAÃ±adir_Click(object sender, EventArgs e)
+        private void btnAñadir_Click(object sender, EventArgs e)
         {
-            AÃ±adir nuevoFormulario = new AÃ±adir();
-            nuevoFormulario.ShowDialog(); // Mostrar como diÃ¡logo modal
+            Añadir nuevoFormulario = new Añadir();
+            nuevoFormulario.ShowDialog(); // Mostrar como diálogo modal
             refreshPantalla();
 
         }
@@ -62,7 +63,7 @@ namespace Farmacia.Forms.Admin_Form.Tablas
         private void btnEliminar_Click(object sender, EventArgs e)
         {
             Eliminar nuevoFormulario = new Eliminar();
-            nuevoFormulario.ShowDialog(); // Mostrar como diÃ¡logo modal
+            nuevoFormulario.ShowDialog(); // Mostrar como diálogo modal
             refreshPantalla();
         }
 
@@ -73,10 +74,10 @@ namespace Farmacia.Forms.Admin_Form.Tablas
                 // Obtener la fila seleccionada
                 DataGridViewRow filaSeleccionada = dtgMedicamentos.SelectedRows[0];
 
-                // Crear una instancia del formulario de modificaciÃ³n
+                // Crear una instancia del formulario de modificación
                 Modificar modificarForm = new Modificar();
 
-                // Pasar los datos del medicamento seleccionado al formulario de modificaciÃ³n
+                // Pasar los datos del medicamento seleccionado al formulario de modificación
                 modificarForm.txtID_Medicamento.Text = filaSeleccionada.Cells["IdMedicamento"].Value.ToString();
                 modificarForm.txtNombre_Medicamento.Text = filaSeleccionada.Cells["Nombre"].Value.ToString();
                 modificarForm.txtNombre_Generico_Medicamento.Text = filaSeleccionada.Cells["NombreGenerico"].Value.ToString();
@@ -90,7 +91,7 @@ namespace Farmacia.Forms.Admin_Form.Tablas
                 // Deshabilitar el TextBox del ID para que no se pueda modificar (opcional)
                 modificarForm.txtID_Medicamento.ReadOnly = true;
 
-                // Mostrar el formulario de modificaciÃ³n de manera modal (hasta que se cierre)
+                // Mostrar el formulario de modificación de manera modal (hasta que se cierre)
                 modificarForm.ShowDialog();
 
                 refreshPantalla();
@@ -103,24 +104,24 @@ namespace Farmacia.Forms.Admin_Form.Tablas
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            string nombreABuscar = txtBuscar.Text.Trim(); // Obtener el texto de bÃºsqueda y quitar espacios en blanco al principio y al final
+            string nombreABuscar = txtBuscar.Text.Trim(); // Obtener el texto de búsqueda y quitar espacios en blanco al principio y al final
 
             if (!string.IsNullOrEmpty(nombreABuscar))
             {
-                // Llamar a un mÃ©todo en tu capa de lÃ³gica para buscar medicamentos por nombre
-                List<Entidades.Definir_Medicamentos.Medicamentos> resultados = _medicamentosBLL.ObtenerMedicamentosPorNombre(nombreABuscar);
+                // Llamar a un método en tu capa de lógica para buscar medicamentos por nombre
+                List<LogicaCompartida.Entidades.Definir_Medicamentos.Medicamentos> resultados = _medicamentosBLL.ObtenerMedicamentosPorNombre(nombreABuscar);
 
-                // Actualizar el DataGridView con los resultados de la bÃºsqueda
+                // Actualizar el DataGridView con los resultados de la búsqueda
                 dtgMedicamentos.DataSource = resultados;
 
                 if (resultados.Count == 0)
                 {
-                    MessageBox.Show($"No se encontraron medicamentos con el nombre '{nombreABuscar}'.", "InformaciÃ³n", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show($"No se encontraron medicamentos con el nombre '{nombreABuscar}'.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
             else
             {
-                // Si el TextBox de bÃºsqueda estÃ¡ vacÃ­o, podrÃ­as recargar todos los medicamentos
+                // Si el TextBox de búsqueda está vacío, podrías recargar todos los medicamentos
                 refreshPantalla();
             }
         }
@@ -132,10 +133,18 @@ namespace Farmacia.Forms.Admin_Form.Tablas
                 DataGridViewRow filaSeleccionada = dtgMedicamentos.SelectedRows[0];
                 string idMedicamento = filaSeleccionada.Cells["IdMedicamento"].Value.ToString();
 
-                // Ruta completa a la carpeta de recursos.
-                string carpetaDestino = @"C:\Users\Yeison De Jesus\Desktop\PROYECTO FARMACIA\Farmacia\Farmacia\Resources";
+                // Obtener la ruta de destino según el dispositivo actual
+                string carpetaDestino = ConfiguracionDispositivo.ObtenerRutaCodigoBarras();
 
-                // Genera un nombre de archivo Ãºnico para cada cÃ³digo
+                // Verificar que la ruta sea accesible
+                if (!ConfiguracionDispositivo.VerificarAccesoRuta())
+                {
+                    MessageBox.Show($"No se puede acceder a la carpeta de recursos.\nDispositivo: {ConfiguracionDispositivo.ObtenerInfoDispositivo()}", 
+                        "Error de Acceso", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                // Genera un nombre de archivo único para cada código
                 string nombreArchivo = $"codigo_barras_{DateTime.Now.Ticks}.png";
 
                 //Combina la ruta de destino y el nombre del archivo
@@ -147,7 +156,7 @@ namespace Farmacia.Forms.Admin_Form.Tablas
                 
       
 
-                // Llama al mÃ©todo para crear y guardar el cÃ³digo en la nueva ruta
+                // Llama al método para crear y guardar el código en la nueva ruta
                 crearCodigoBarras(idMedicamento, BarcodeWriterEncoding.Code128, Codigo_BarrasForm.Codigo, rutaCompleta);
                                
 
