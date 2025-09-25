@@ -1,0 +1,94 @@
+@model LogicaCompartida.Entidades.Definir_Medicamentos.Medicamentos
+@{
+    ViewData["Title"] = "Editar Medicamento";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <h3>@ViewData["Title"]</h3>
+                </div>
+                <div class="card-body">
+                    @if (ViewBag.Error != null)
+                    {
+                        <div class="alert alert-danger">@ViewBag.Error</div>
+                    }
+
+                    <form asp-action="Edit" method="post">
+                        <input asp-for="IdMedicamento" type="hidden" />
+                        
+                        <div class="mb-3">
+                            <label class="form-label">ID Medicamento</label>
+                            <input value="@Model.IdMedicamento" class="form-control" readonly />
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Nombre" class="form-label">Nombre *</label>
+                            <input asp-for="Nombre" class="form-control" placeholder="Ingrese el nombre completo" required />
+                            <span asp-validation-for="Nombre" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="NombreGenerico" class="form-label">Nombre Generico *</label>
+                            <input asp-for="NombreGenerico" class="form-control" placeholder="Ingrese el Nombre Generico" required />
+                            <span asp-validation-for="NombreGenerico" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Categoria" class="form-label">Categoria *</label>
+                            <input asp-for="Categoria" type="text" class="form-control" placeholder="Analgesico" required />
+                            <span asp-validation-for="Categoria" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Estante" class="form-label">Estante *</label>
+                            <textarea asp-for="Estante" class="form-control" rows="3" placeholder="Ingrese el estante donde se encuentra el medicamento" required></textarea>
+                            <span asp-validation-for="Estante" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="PrecioVenta" class="form-label">Precio Venta *</label>
+                            <textarea asp-for="PrecioVenta" class="form-control" rows="3" placeholder="Ingrese el precio en que se vende el producto" required></textarea>
+                            <span asp-validation-for="PrecioVenta" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="PrecioProveedor" class="form-label">Precio Proveedor *</label>
+                            <textarea asp-for="PrecioProveedor" class="form-control" rows="3" placeholder="Ingrese el precio en que el proveedor vende el producto" required></textarea>
+                            <span asp-validation-for="PrecioProveedor" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Stock" class="form-label">Stock *</label>
+                            <textarea asp-for="Stock" class="form-control" rows="3" placeholder="Ingrese el stock del producto" required></textarea>
+                            <span asp-validation-for="Stock" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="IdProveedor" class="form-label">Id Proveedor *</label>
+                            <textarea asp-for="IdProveedor" class="form-control" rows="3" placeholder="Ingrese el Id del proveedor" required></textarea>
+                            <span asp-validation-for="IdProveedor" class="text-danger"></span>
+                        </div>
+
+
+
+                        <div class="d-flex justify-content-between">
+                            <a href="@Url.Action("Index")" class="btn btn-secondary">
+                                <i class="fas fa-arrow-left"></i> Volver
+                            </a>
+                            <button type="submit" class="btn btn-warning">
+                                <i class="fas fa-save"></i> Actualizar Cliente
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

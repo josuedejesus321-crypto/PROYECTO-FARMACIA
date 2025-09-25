@@ -10,3 +10,15 @@ C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\DataBase\obj\Debug\n
 C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\DataBase\obj\Debug\netstandard2.0\DataBase.csproj.Up2Date
 C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\DataBase\obj\Debug\netstandard2.0\DataBase.dll
 C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\DataBase\obj\Debug\netstandard2.0\DataBase.pdb
+C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\DataBase\bin\Debug\netstandard2.0\DataBase.deps.json
+C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\DataBase\bin\Debug\netstandard2.0\DataBase.dll
+C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\DataBase\bin\Debug\netstandard2.0\DataBase.pdb
+C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\DataBase\bin\Debug\netstandard2.0\Entidades.dll
+C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\DataBase\bin\Debug\netstandard2.0\Entidades.pdb
+C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\DataBase\obj\Debug\netstandard2.0\DataBase.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\DataBase\obj\Debug\netstandard2.0\DataBase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\DataBase\obj\Debug\netstandard2.0\DataBase.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\DataBase\obj\Debug\netstandard2.0\DataBase.sourcelink.json
+C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\DataBase\obj\Debug\netstandard2.0\DataBase.csproj.Up2Date
+C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\DataBase\obj\Debug\netstandard2.0\DataBase.dll
+C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\DataBase\obj\Debug\netstandard2.0\DataBase.pdb

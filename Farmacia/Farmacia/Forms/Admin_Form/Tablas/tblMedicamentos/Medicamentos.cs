@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static Logica_Datos1.Consultas_MedicamentosDAL;
-using LogicaCompartida.Entidades;
+using Entidades;
 using Farmacia.Forms.Admin_Form.Tablas.tblMedicamentos;
 using IronBarCode;
 using System.IO;
@@ -109,7 +109,7 @@ namespace Farmacia.Forms.Admin_Form.Tablas
             if (!string.IsNullOrEmpty(nombreABuscar))
             {
                 // Llamar a un método en tu capa de lógica para buscar medicamentos por nombre
-                List<LogicaCompartida.Entidades.Definir_Medicamentos.Medicamentos> resultados = _medicamentosBLL.ObtenerMedicamentosPorNombre(nombreABuscar);
+                List<Entidades.Definir_Medicamentos.Medicamentos> resultados = _medicamentosBLL.ObtenerMedicamentosPorNombre(nombreABuscar);
 
                 // Actualizar el DataGridView con los resultados de la búsqueda
                 dtgMedicamentos.DataSource = resultados;

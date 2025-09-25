@@ -3427,23 +3427,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Yeison De Jesus\\.nuget\\packages\\": {},
+    "C:\\Users\\ADMIN\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\Farmacia.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\Farmacia.csproj",
       "projectName": "Farmacia",
-      "projectPath": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\Farmacia.csproj",
-      "packagesPath": "C:\\Users\\Yeison De Jesus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\obj\\",
+      "projectPath": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\Farmacia.csproj",
+      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Yeison De Jesus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3452,18 +3452,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\Yeison De Jesus\\Downloads": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0-windows7.0": {
           "targetAlias": "net9.0-windows",
           "projectReferences": {
-            "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Entidades\\Entidades.csproj": {
-              "projectPath": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Entidades\\Entidades.csproj"
+            "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Entidades\\Entidades.csproj": {
+              "projectPath": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Entidades\\Entidades.csproj"
             },
-            "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Logica_Datos1\\Logica_Datos1.csproj": {
-              "projectPath": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Logica_Datos1\\Logica_Datos1.csproj"
+            "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Logica_Datos1\\Logica_Datos1.csproj": {
+              "projectPath": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Logica_Datos1\\Logica_Datos1.csproj"
             }
           }
         }
@@ -3664,12 +3663,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-            "version": "[9.0.305, 9.0.305]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -3687,7 +3680,7 @@
       "code": "NU1902",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"SixLabors.ImageSharp\" 3.1.8 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-rxmq-m78w-7wmc",
+      "message": "Package 'SixLabors.ImageSharp' 3.1.8 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-rxmq-m78w-7wmc",
       "libraryId": "SixLabors.ImageSharp",
       "targetGraphs": [
         "net9.0-windows7.0"

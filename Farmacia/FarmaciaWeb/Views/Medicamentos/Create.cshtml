@@ -1,0 +1,61 @@
+@model LogicaCompartida.Entidades.Definir_Clientes.Cliente
+@{
+    ViewData["Title"] = "Nuevo Cliente";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <h3>@ViewData["Title"]</h3>
+                </div>
+                <div class="card-body">
+                    @if (ViewBag.Error != null)
+                    {
+                        <div class="alert alert-danger">@ViewBag.Error</div>
+                    }
+
+                    <form asp-action="Create" method="post">
+                        <div class="mb-3">
+                            <label asp-for="Nombre" class="form-label">Nombre *</label>
+                            <input asp-for="Nombre" class="form-control" placeholder="Ingrese el nombre completo" required />
+                            <span asp-validation-for="Nombre" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Telefono" class="form-label">Teléfono *</label>
+                            <input asp-for="Telefono" class="form-control" placeholder="Ingrese el número de teléfono" required />
+                            <span asp-validation-for="Telefono" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Email" class="form-label">Email *</label>
+                            <input asp-for="Email" type="email" class="form-control" placeholder="ejemplo@correo.com" required />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Direccion" class="form-label">Dirección *</label>
+                            <textarea asp-for="Direccion" class="form-control" rows="3" placeholder="Ingrese la dirección completa" required></textarea>
+                            <span asp-validation-for="Direccion" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-flex justify-content-between">
+                            <a href="@Url.Action("Index")" class="btn btn-secondary">
+                                <i class="fas fa-arrow-left"></i> Volver
+                            </a>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-save"></i> Guardar Cliente
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

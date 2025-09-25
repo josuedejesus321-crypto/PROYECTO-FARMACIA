@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\LogicaCompartida\\LogicaCompartida.csproj": {}
+    "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\LogicaCompartida\\LogicaCompartida.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\LogicaCompartida\\LogicaCompartida.csproj": {
+    "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\LogicaCompartida\\LogicaCompartida.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\LogicaCompartida\\LogicaCompartida.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\LogicaCompartida\\LogicaCompartida.csproj",
         "projectName": "LogicaCompartida",
-        "projectPath": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\LogicaCompartida\\LogicaCompartida.csproj",
-        "packagesPath": "C:\\Users\\Yeison De Jesus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\LogicaCompartida\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\LogicaCompartida\\LogicaCompartida.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\LogicaCompartida\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Yeison De Jesus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\Yeison De Jesus\\Downloads": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -67,12 +66,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.305, 9.0.305]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

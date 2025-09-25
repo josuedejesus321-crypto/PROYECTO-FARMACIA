@@ -1,0 +1,105 @@
+@model List<LogicaCompartida.Entidades.Definir_Medicamentos.Medicamentos>
+@{
+    ViewData["Title"] = "Gestión de Medicamentos";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <h2>@ViewData["Title"]</h2>
+
+            @if (ViewBag.Error != null)
+            {
+                <div class="alert alert-danger">@ViewBag.Error</div>
+            }
+
+            @if (TempData["Success"] != null)
+            {
+                <div class="alert alert-success">@TempData["Success"]</div>
+            }
+
+            @if (TempData["Error"] != null)
+            {
+                <div class="alert alert-danger">@TempData["Error"]</div>
+            }
+
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <a href="@Url.Action("Create")" class="btn btn-primary">
+                        <i class="fas fa-plus"></i> Nuevo Medicamento
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <form method="get" action="@Url.Action("Search")" class="d-flex">
+                        <input type="text" name="searchTerm" class="form-control me-2" placeholder="Buscar Medicamento..." 
+                               value="@ViewBag.SearchTerm">
+                        <button type="submit" class="btn btn-outline-secondary">Buscar</button>
+                        @if (!string.IsNullOrEmpty(ViewBag.SearchTerm))
+                        {
+                            <a href="@Url.Action("Index")" class="btn btn-outline-secondary ms-2">Limpiar</a>
+                        }
+                    </form>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    @if (Model.Any())
+                    {
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Nombre</th>
+                                        <th>Nombre Generico</th>
+                                        <th>Categoria</th>
+                                        <th>Estante</th>
+                                        <th>Precio Venta</th>
+                                        <th>Precio Proveedor</th>
+                                        <th>Stock</th>
+                                        <th>Id Proveedor</th>
+                                        <th class="text-center">Acciones</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var medicamentos in Model)
+                                    {
+                                        <tr>
+                                            <td>@medicamentos.IdMedicamento</td>
+                                            <td>@medicamentos.Nombre</td>
+                                            <td>@medicamentos.NombreGenerico</td>
+                                            <td>@medicamentos.Categoria</td>
+                                            <td>@medicamentos.Estante</td>
+                                            <td>@medicamentos.PrecioVenta</td>
+                                            <td>@medicamentos.PrecioProveedor</td>
+                                            <td>@medicamentos.Stock</td>
+                                            <td>@medicamentos.IdProveedor</td>
+                                            <td class="text-center">
+                                                <a href="@Url.Action("Edit", new { id = medicamentos.IdMedicamento })" 
+                                                   class="btn btn-sm btn-warning me-1">
+                                                    <i class="fas fa-edit"></i> Editar
+                                                </a>
+                                                <a href="@Url.Action("Delete", new { id = medicamentos.IdMedicamento })"
+                                                   class="btn btn-sm btn-danger"
+                                                   onclick="return confirm('¿Está seguro de eliminar este Medicamento?')">
+                                                    <i class="fas fa-trash"></i> Eliminar
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="text-center">
+                            <p class="text-muted">No se encontraron Medicamentos.</p>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
