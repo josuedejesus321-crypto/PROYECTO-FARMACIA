@@ -3,4 +3,96 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <StartAction>Project</StartAction>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="Forms\Admin_Form\Admin_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin_Form\Tablas\DashBoard\DashBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin_Form\Tablas\tblClientes\Añadir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin_Form\Tablas\tblClientes\Clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin_Form\Tablas\tblClientes\Eliminar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin_Form\Tablas\tblClientes\Modificar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin_Form\Tablas\tblCompras\Añadir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin_Form\Tablas\tblCompras\Compras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin_Form\Tablas\tblCompras\Eliminar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin_Form\Tablas\tblCompras\Modificar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin_Form\Tablas\tblHistorial_Compras\Historial_Compras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin_Form\Tablas\tblHistorial_Usuarios\Historial_Usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin_Form\Tablas\tblHistorial_Ventas\Historial_Ventas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin_Form\Tablas\tblMedicamentos\Añadir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin_Form\Tablas\tblMedicamentos\Codigo_Barras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin_Form\Tablas\tblMedicamentos\Eliminar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin_Form\Tablas\tblMedicamentos\Escaner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin_Form\Tablas\tblMedicamentos\Medicamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin_Form\Tablas\tblMedicamentos\Modificar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin_Form\Tablas\tblProveedores\Añadir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin_Form\Tablas\tblProveedores\Eliminar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin_Form\Tablas\tblProveedores\Modificar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin_Form\Tablas\tblProveedores\Proveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin_Form\Tablas\tblVender\Añadir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin_Form\Tablas\tblVender\Eliminar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin_Form\Tablas\tblVender\Modificar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Admin_Form\Tablas\tblVender\Ventas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Purchase_Form\Purchase_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Seller_Form\Seller_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
 </Project>

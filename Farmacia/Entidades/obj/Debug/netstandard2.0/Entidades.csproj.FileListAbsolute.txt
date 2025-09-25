@@ -1,0 +1,9 @@
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Entidades\bin\Debug\netstandard2.0\Entidades.deps.json
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Entidades\bin\Debug\netstandard2.0\Entidades.dll
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Entidades\bin\Debug\netstandard2.0\Entidades.pdb
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Entidades\obj\Debug\netstandard2.0\Entidades.csproj.AssemblyReference.cache
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Entidades\obj\Debug\netstandard2.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Entidades\obj\Debug\netstandard2.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Entidades\obj\Debug\netstandard2.0\Entidades.sourcelink.json
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Entidades\obj\Debug\netstandard2.0\Entidades.dll
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\Entidades\obj\Debug\netstandard2.0\Entidades.pdb
