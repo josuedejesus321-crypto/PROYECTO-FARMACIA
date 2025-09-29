@@ -54,8 +54,6 @@ C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debu
 C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\uc5owbws2s-ttgo8qnofa.gz
 C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\i8m0988wza-87fc7y1x7t.gz
 C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\hppefdrv2d-mlv21k5csn.gz
-C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\fr2f3fuim0-qqragfkz6y.gz
-C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\ijvqkprgua-qqragfkz6y.gz
 C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\staticwebassets.development.json
@@ -116,7 +114,6 @@ C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\bin\Debu
 C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\bin\Debug\net9.0\LogicaCompartida.pdb
 C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\FarmaciaWeb.csproj.AssemblyReference.cache
 C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\Farmacia.A3BC9EB0.Up2Date
-C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\gcaxb9n73v-t1cqhe9u97.gz
 C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\ap9rhhgwyk-sejl45xvog.gz
 C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\rs9pc6ky4l-xvp3kq03qx.gz
@@ -296,3 +293,5 @@ c:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\F
 c:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\FarmaciaWeb.genruntimeconfig.cache
 c:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\ref\FarmaciaWeb.dll
 C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\fr2f3fuim0-qqragfkz6y.gz
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\ijvqkprgua-qqragfkz6y.gz

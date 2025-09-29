@@ -16,16 +16,18 @@ namespace LogicaCompartida.Entidades
             public int IdMedicamento { get; set; }
             public int CantidadComprada { get; set; }
             public decimal PrecioUnidad { get; set; }
+            public decimal IdEmpleado { get; set; }
 
             public Compras() { }
 
-            public Compras(int idProveedor, DateTime fechaCompra, int idMedicamento, int cantidadComprada, decimal precioUnidad)
+            public Compras(int idProveedor, DateTime fechaCompra, int idMedicamento, int cantidadComprada, decimal precioUnidad, int idEmpleado)
             {
                 this.IdProveedor = idProveedor;
                 this.FechaCompra = fechaCompra;
                 this.IdMedicamento = idMedicamento;
                 this.CantidadComprada = cantidadComprada;
                 this.PrecioUnidad = precioUnidad;
+                this.IdEmpleado = idEmpleado;
             }
         }
 

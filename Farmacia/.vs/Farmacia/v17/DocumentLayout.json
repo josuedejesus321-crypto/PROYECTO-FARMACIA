@@ -1,18 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\",
+  "WorkspaceRootPath": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|c:\\users\\admin\\desktop\\proyecto-farmacia\\farmacia\\farmaciaweb\\views\\medicamentos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|solutionrelative:farmaciaweb\\views\\medicamentos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|c:\\users\\admin\\desktop\\proyecto-farmacia\\farmacia\\farmaciaweb\\views\\medicamentos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|solutionrelative:farmaciaweb\\views\\medicamentos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|c:\\users\\admin\\desktop\\proyecto-farmacia\\farmacia\\farmaciaweb\\views\\medicamentos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|solutionrelative:farmaciaweb\\views\\medicamentos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|c:\\users\\yeison de jesus\\desktop\\proyecto-farmacia\\farmacia\\farmaciaweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|solutionrelative:farmaciaweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Views\\Medicamentos\\Create.cshtml",
-              "RelativeDocumentMoniker": "FarmaciaWeb\\Views\\Medicamentos\\Create.cshtml",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Views\\Medicamentos\\Create.cshtml",
-              "RelativeToolTip": "FarmaciaWeb\\Views\\Medicamentos\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA6AAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FarmaciaWeb\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FarmaciaWeb\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-25T16:44:39.637Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Views\\Medicamentos\\Edit.cshtml",
-              "RelativeDocumentMoniker": "FarmaciaWeb\\Views\\Medicamentos\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Views\\Medicamentos\\Edit.cshtml",
-              "RelativeToolTip": "FarmaciaWeb\\Views\\Medicamentos\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-25T13:46:00.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Views\\Medicamentos\\Index.cshtml",
-              "RelativeDocumentMoniker": "FarmaciaWeb\\Views\\Medicamentos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Views\\Medicamentos\\Index.cshtml",
-              "RelativeToolTip": "FarmaciaWeb\\Views\\Medicamentos\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-25T13:36:43.691Z",
+              "WhenOpened": "2025-09-28T18:52:55.942Z",
               "EditorCaption": ""
             }
           ]

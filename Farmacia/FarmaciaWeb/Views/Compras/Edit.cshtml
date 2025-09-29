@@ -1,6 +1,6 @@
-@model LogicaCompartida.Entidades.Definir_Clientes.Cliente
+@model LogicaCompartida.Entidades.Definir_Compras.Compras
 @{
-    ViewData["Title"] = "Editar Cliente";
+    ViewData["Title"] = "Editar Compra";
 }
 
 <div class="container">
@@ -17,35 +17,47 @@
                     }
 
                     <form asp-action="Edit" method="post">
-                        <input asp-for="IdCliente" type="hidden" />
+                        <input asp-for="IdCompra" type="hidden" />
                         
                         <div class="mb-3">
                             <label class="form-label">ID Cliente</label>
-                            <input value="@Model.IdCliente" class="form-control" readonly />
+                            <input value="@Model.IdCompra" class="form-control" readonly />
                         </div>
 
                         <div class="mb-3">
-                            <label asp-for="Nombre" class="form-label">Nombre *</label>
-                            <input asp-for="Nombre" class="form-control" placeholder="Ingrese el nombre completo" required />
-                            <span asp-validation-for="Nombre" class="text-danger"></span>
+                            <label asp-for="IdProveedor" class="form-label">Id Proveedor *</label>
+                            <input asp-for="IdProveedor" class="form-control" placeholder="Ingrese el ID completo" required />
+                            <span asp-validation-for="IdProveedor" class="text-danger"></span>
                         </div>
 
                         <div class="mb-3">
-                            <label asp-for="Telefono" class="form-label">Teléfono *</label>
-                            <input asp-for="Telefono" class="form-control" placeholder="Ingrese el número de teléfono" required />
-                            <span asp-validation-for="Telefono" class="text-danger"></span>
+                            <label asp-for="FechaCompra" class="form-label">Fecha Compra *</label>
+                            <input asp-for="FechaCompra" class="form-control" placeholder="Ingrese la fecha de la compra" required />
+                            <span asp-validation-for="FechaCompra" class="text-danger"></span>
                         </div>
 
                         <div class="mb-3">
-                            <label asp-for="Email" class="form-label">Email *</label>
-                            <input asp-for="Email" type="email" class="form-control" placeholder="ejemplo@correo.com" required />
-                            <span asp-validation-for="Email" class="text-danger"></span>
+                            <label asp-for="IdMedicamento" class="form-label">Id Medicamento *</label>
+                            <input asp-for="IdMedicamento" type="email" class="form-control" placeholder="Ingrese el ID completo" required />
+                            <span asp-validation-for="IdMedicamento" class="text-danger"></span>
                         </div>
 
                         <div class="mb-3">
-                            <label asp-for="Direccion" class="form-label">Dirección *</label>
-                            <textarea asp-for="Direccion" class="form-control" rows="3" placeholder="Ingrese la dirección completa" required></textarea>
-                            <span asp-validation-for="Direccion" class="text-danger"></span>
+                            <label asp-for="CantidadComprada" class="form-label">Cantidad Comprada *</label>
+                            <textarea asp-for="CantidadComprada" class="form-control" rows="3" placeholder="Ingrese la cantidad comprada" required></textarea>
+                            <span asp-validation-for="CantidadComprada" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="PrecioUnidad" class="form-label">Precio por Unidad *</label>
+                            <textarea asp-for="PrecioUnidad" class="form-control" rows="3" placeholder="Ingrese el precio por unidad" required></textarea>
+                            <span asp-validation-for="PrecioUnidad" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="IdEmpleado" class="form-label">Id Empleado *</label>
+                            <textarea asp-for="IdEmpleado" class="form-control" rows="3" placeholder="Ingrese Id Completo" required></textarea>
+                            <span asp-validation-for="IdEmpleado" class="text-danger"></span>
                         </div>
 
                         <div class="d-flex justify-content-between">
@@ -53,7 +65,7 @@
                                 <i class="fas fa-arrow-left"></i> Volver
                             </a>
                             <button type="submit" class="btn btn-warning">
-                                <i class="fas fa-save"></i> Actualizar Cliente
+                                <i class="fas fa-save"></i> Actualizar Compra
                             </button>
                         </div>
                     </form>
