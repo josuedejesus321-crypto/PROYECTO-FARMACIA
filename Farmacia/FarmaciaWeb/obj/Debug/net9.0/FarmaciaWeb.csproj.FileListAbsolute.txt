@@ -218,9 +218,7 @@ c:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\r
 c:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 c:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\scopedcss\bundle\FarmaciaWeb.styles.css
 c:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\scopedcss\projectbundle\FarmaciaWeb.bundle.scp.css
-c:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\m72q31fqr8-b9sayid5wm.gz
 c:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\0a4bdagha3-61n19gt1b8.gz
-c:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\c4wlahe62j-xtxxf3hu2r.gz
 c:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\gcaxb9n73v-t1cqhe9u97.gz
 c:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\s0ldal6459-c2jlpeoesf.gz
 c:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\ap9rhhgwyk-sejl45xvog.gz
@@ -292,6 +290,7 @@ c:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\r
 c:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\FarmaciaWeb.pdb
 c:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\FarmaciaWeb.genruntimeconfig.cache
 c:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\ref\FarmaciaWeb.dll
-C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\fr2f3fuim0-qqragfkz6y.gz
 C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\ijvqkprgua-qqragfkz6y.gz
+C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\farmaciaweb\obj\Debug\net9.0\compressed\c4wlahe62j-erstm1c4vj.gz
+C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\farmaciaweb\obj\Debug\net9.0\compressed\m72q31fqr8-uehd0ktbpv.gz

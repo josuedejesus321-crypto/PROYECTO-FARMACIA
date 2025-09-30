@@ -8,9 +8,11 @@ html {
   }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+.btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
+
+
 
 html {
   position: relative;
@@ -29,3 +31,203 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+/* --- Nuevos Estilos para Sidebar Oscuro (Sobrescritura) --- */
+
+/* 1. Ocultar la barra de navegación horizontal original */
+.navbar-expand-sm {
+    display: none !important;
+}
+
+/* 2. Barra superior que contiene solo el botón de abrir */
+.top-app-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px; 
+    background-color: #2c2f33 !important; 
+    z-index: 1040; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    padding-right: 15px; 
+}
+
+/* 3. Botón para abrir el menú (fijo y verde) */
+.menu-open-button-fixed {
+    color: #4CAF50 !important; /* Color verde */
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    padding: 0;
+    z-index: 1050; 
+    cursor: pointer;
+    position: relative;
+    
+    
+}
+
+.btnnac{
+    left: 400px;
+  transition: .3s ease-in-out;
+}
+
+.custom-sidebar-style {
+    background-color: #2c2f33; 
+    position: fixed; /* Debe ser fijo para el efecto */
+    top: 0; 
+    height: 100%; 
+    z-index: 1045; 
+    overflow-x: hidden; /* Oculta cualquier contenido que se desborde horizontalmente */
+    
+    /* ANCHO BASE CUANDO ESTÁ ABIERTO */
+    width: 250px; 
+    
+    /* TRANSICIÓN: Aplicamos la animación al ancho y al espaciado */
+    transition: width 0.3s ease-in-out, padding 0.3s ease-in-out;
+}
+
+/* CLASE AÑADIDA POR JAVASCRIPT: Estado de Menú Minimizado */
+.custom-sidebar-style.minimized {
+    width: 50px; /* Ancho de solo iconos */
+    /* Aquí podrías ajustar el padding si es necesario */
+}
+
+/* 5. Estilo del encabezado del menú (Solo título) */
+.sidebar-header-container {
+    background-color: #2c2f33; 
+    color: #f1f1f1;
+    padding: 15px 20px;
+    border-bottom: 1px solid #3c3f42;
+    display: flex;
+    justify-content: flex-start; /* Solo el título a la izquierda */
+    align-items: center;
+    min-height: 60px;
+}
+.sidebar-logo-text {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #f1f1f1;
+}
+
+
+/* 6. Estilo de la información del usuario */
+.sidebar-user-info {
+    padding: 15px 20px;
+    color: #f1f1f1;
+    border-bottom: 1px solid #3c3f42;
+    text-align: left;
+}
+.sidebar-user-info .user-status-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+.sidebar-user-info .user-name {
+    font-weight: bold;
+    margin-bottom: 2px;
+    font-size: 1rem;
+}
+.sidebar-user-info .user-email {
+    font-size: 0.85rem;
+    color: #ccc;
+    margin-top: 0;
+}
+
+/* 7. Estilo de los enlaces principales y submenús */
+.custom-sidebar-style .nav-item-top .nav-link {
+    color: #f1f1f1 !important;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.custom-sidebar-style .nav-item-top .nav-link:hover {
+    background-color: #3c3f42 !important; 
+    color: #fff !important;
+}
+
+.custom-sidebar-style .nav-link i {
+    width: 30px; 
+    text-align: center;
+    margin-right: 10px;
+    font-size: 1.1rem;
+}
+
+/* Flechas para el submenú (Historiales) */
+.nav-item-parent .nav-link {
+    justify-content: space-between; /* Empuja la flecha a la derecha */
+}
+.submenu-arrow {
+    font-size: 0.8rem;
+    margin-left: auto; /* Empuja la flecha al final */
+    transition: transform 0.2s;
+}
+.nav-item-parent .nav-link[aria-expanded="true"] .submenu-arrow {
+    transform: rotate(180deg);
+}
+
+
+/* Estilo del Sub-Menú (elementos anidados) */
+.custom-sidebar-style .submenu-link {
+    color: #f1f1f1 !important;
+    padding: 8px 20px 8px 50px !important; /* Padding ajustado para submenú */
+    font-size: 0.9rem;
+    transition: background-color 0.2s;
+}
+
+.custom-sidebar-style .submenu-link:hover {
+    background-color: #3c3f42 !important; 
+}
+ /*.submenu-item-active .submenu-link {
+     Puedes definir aquí un estilo para el link activo si lo deseas 
+}*/
+
+.dot-indicator::before {
+    content: "•";
+    font-size: 1.5rem;
+    line-height: 0;
+    vertical-align: middle;
+    margin-right: 10px;
+    color: #f1f1f1;
+}
+.dot-indicator {
+    width: 30px; 
+    text-align: center;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+
+/* 8. Ajuste del contenido principal (padding y desplazamiento) */
+
+/* --- CONFIGURACIÓN DE MARGEN PARA EL CONTENIDO PRINCIPAL --- */
+
+/* ESTADO ABIERTO (Sin la clase .minimized, el menú es de 250px) */
+.content-wrapper {
+    /* Mantiene la transición de movimiento */
+    transition: margin-left .3s ease-in-out; 
+    
+    /* Margen cuando el menú está ABIERTO */
+    margin-left: 250px; 
+    padding-top: 60px;
+}
+
+/* ESTADO CERRADO/MINIMIZADO (Con la clase .minimized, el menú es de 60px) */
+.content-wrapper.minimized {
+    /* Margen reducido cuando el menú está colapsado a solo 60px */
+    margin-left: 60px; 
+}
+
+/* NOTA: Si prefiere usar la clase 'sidebar-open' como antes, 
+solo reemplace '.content-wrapper.minimized' con '.content-wrapper.sidebar-open' 
+en el código JS y CSS.
+*/
+
+
+
