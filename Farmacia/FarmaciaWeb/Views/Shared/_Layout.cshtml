@@ -14,85 +14,86 @@
     
     <nav class="top-app-bar">
         <div class="container-fluid d-flex ">
-            <button class="btn menu-open-button-fixed" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-label="Toggle navigation">
+            <button id="sidebarToggle" class="btn menu-open-button-fixed" type="button" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
             </button>
         </div>
     </nav>
     
-    <div class="offcanvas offcanvas-start custom-sidebar-style" tabindex="-1" id="sidebarMenu" aria-labelledby="sidebarMenuLabel">
-        <div class="offcanvas-header sidebar-header-container">
-            <h5 class="offcanvas-title sidebar-logo-text" id="sidebarMenuLabel"> <img src="~/Icons/Logo_Icon.png" alt="no esta la imagen"> Pharmacare</h5>
-        </div>
-        <div class="offcanvas-body p-0">
-            
-            <div class="sidebar-user-info">
-                <span class="user-status-dot"></span>
-                <p class="user-name">Admin User</p>
-                <p class="user-email">admin@gmail.com</p>
-            </div>
-
-            <ul class="navbar-nav flex-column flex-grow-1">
-                
-                <li class="nav-item nav-item-top">
-                    <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">
-                        <i class="fas fa-home"></i> Inicio
-                    </a>
-                </li>
-                <li class="nav-item nav-item-top">
-                    <a class="nav-link" asp-area="" asp-controller="Cliente" asp-action="Index">
-                        <i class="fas fa-user-alt"></i> Clientes
-                    </a>
-                </li>
-                <li class="nav-item nav-item-top">
-                    <a class="nav-link" asp-area="" asp-controller="Medicamentos" asp-action="Index">
-                        <i class="fas fa-pills"></i> Medicamentos
-                    </a>
-                </li>
-                <li class="nav-item nav-item-top">
-                    <a class="nav-link" asp-area="" asp-controller="Proveedores" asp-action="Index">
-                        <i class="fas fa-users-cog"></i> Proveedores
-                    </a>
-                </li>
-                <li class="nav-item nav-item-top">
-                    <a class="nav-link" asp-area="" asp-controller="Venta" asp-action="Vender">
-                        <i class="fas fa-cash-register"></i> Vender
-                    </a>
-                </li>
-                <li class="nav-item nav-item-top">
-                    <a class="nav-link" asp-area="" asp-controller="Compra" asp-action="Comprar">
-                        <i class="fas fa-shopping-cart"></i> Comprar
-                    </a>
-                </li>
-                
-                <li class="nav-item nav-item-top nav-item-parent">
-                    <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#historialSubmenu" aria-expanded="false" aria-controls="historialSubmenu">
-                        <i class="fas fa-file-alt"></i> Historiales <i class="fas fa-chevron-down submenu-arrow"></i>
-                    </a>
-                    <div class="collapse" id="historialSubmenu">
-                        <ul class="nav flex-column ps-4 submenu-items">
-                            <li class="nav-item submenu-item">
-                                <a class="nav-link submenu-link" asp-area="" asp-controller="Historial" asp-action="Ventas">
-                                    <span class="dot-indicator"></span> Ventas
-                                </a>
-                            </li>
-                            <li class="nav-item submenu-item">
-                                <a class="nav-link submenu-link" asp-area="" asp-controller="Historial" asp-action="Compras">
-                                    <span class="dot-indicator"></span> Compras
-                                </a>
-                            </li>
-                            <li class="nav-item submenu-item submenu-item-active">
-                                <a class="nav-link submenu-link" asp-area="" asp-controller="Usuario" asp-action="List">
-                                    <span class="dot-indicator"></span> Usuarios
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                
-            </ul>
-        </div>
+    <div class="custom-sidebar-style" id="sidebarMenu">
+    <div class="sidebar-header-container">
+        <h5 class="sidebar-logo-text" id="sidebarMenuLabel">
+            <img src="~/Icons/Logo_Icon.png" alt="no esta la imagen" id="sidebarLogo"> Pharmacare
+        </h5>
     </div>
+    <div class="sidebar-body">
+        
+        <div class="sidebar-user-info">
+            <span class="user-status-dot"></span>
+            <p class="user-name">Admin User</p>
+            <p class="user-email">admin@gmail.com</p>
+        </div>
+
+        <ul class="navbar-nav flex-column flex-grow-1">
+            <li class="nav-item nav-item-top">
+                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">
+                    <i class="fas fa-home"></i> <span class="link-text">Inicio</span>
+                </a>
+            </li>
+            <li class="nav-item nav-item-top">
+                <a class="nav-link" asp-area="" asp-controller="Cliente" asp-action="Index">
+                    <i class="fas fa-user-alt"></i> <span class="link-text">Clientes</span>
+                </a>
+            </li>
+            <li class="nav-item nav-item-top">
+                <a class="nav-link" asp-area="" asp-controller="Medicamentos" asp-action="Index">
+                    <i class="fas fa-pills"></i> <span class="link-text">Medicamentos</span>
+                </a>
+            </li>
+            <li class="nav-item nav-item-top">
+                <a class="nav-link" asp-area="" asp-controller="Proveedores" asp-action="Index">
+                    <i class="fas fa-users-cog"></i> <span class="link-text">Proveedores</span>
+                </a>
+            </li>
+            <li class="nav-item nav-item-top">
+                <a class="nav-link" asp-area="" asp-controller="Venta" asp-action="Vender">
+                    <i class="fas fa-cash-register"></i> <span class="link-text">Vender</span>
+                </a>
+            </li>
+            <li class="nav-item nav-item-top">
+                <a class="nav-link" asp-area="" asp-controller="Compra" asp-action="Comprar">
+                    <i class="fas fa-shopping-cart"></i> <span class="link-text">Comprar</span>
+                </a>
+            </li>
+            
+            <li class="nav-item nav-item-top nav-item-parent">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#historialSubmenu" aria-expanded="false" aria-controls="historialSubmenu">
+                    <i class="fas fa-file-alt"></i> <span class="link-text">Historiales</span>
+                    <i class="fas fa-chevron-down submenu-arrow"></i>
+                </a>
+                <div class="collapse" id="historialSubmenu">
+                    <ul class="nav flex-column ps-4 submenu-items">
+                        <li class="nav-item submenu-item">
+                            <a class="nav-link submenu-link" asp-area="" asp-controller="Historial" asp-action="Ventas">
+                                <span class="dot-indicator"></span> Ventas
+                            </a>
+                        </li>
+                        <li class="nav-item submenu-item">
+                            <a class="nav-link submenu-link" asp-area="" asp-controller="Historial" asp-action="Compras">
+                                <span class="dot-indicator"></span> Compras
+                            </a>
+                        </li>
+                        <li class="nav-item submenu-item submenu-item-active">
+                            <a class="nav-link submenu-link" asp-area="" asp-controller="Usuario" asp-action="List">
+                                <span class="dot-indicator"></span> Usuarios
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
 
     <div class="content-wrapper">
         <div class="container">
