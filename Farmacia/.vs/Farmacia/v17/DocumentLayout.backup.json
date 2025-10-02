@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1343DD64-9891-4FAC-956C-6E8520FD8D48}|Logica_Datos1\\Logica_Datos1.csproj|c:\\users\\admin\\desktop\\proyecto-farmacia\\farmacia\\logica_datos1\\consultas_ventasdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1343DD64-9891-4FAC-956C-6E8520FD8D48}|Logica_Datos1\\Logica_Datos1.csproj|solutionrelative:logica_datos1\\consultas_ventasdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3139BCD-ED4D-4036-B012-D6154763B683}|DataBase\\DataBase.csproj|c:\\users\\admin\\desktop\\proyecto-farmacia\\farmacia\\database\\consultas_ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3139BCD-ED4D-4036-B012-D6154763B683}|DataBase\\DataBase.csproj|solutionrelative:database\\consultas_ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3139BCD-ED4D-4036-B012-D6154763B683}|DataBase\\DataBase.csproj|c:\\users\\admin\\desktop\\proyecto-farmacia\\farmacia\\database\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3139BCD-ED4D-4036-B012-D6154763B683}|DataBase\\DataBase.csproj|solutionrelative:database\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3570B9F3-6CBA-48CF-B16E-95BB78BF8976}|Farmacia\\Farmacia.csproj|c:\\users\\admin\\desktop\\proyecto-farmacia\\farmacia\\farmacia\\forms\\admin_form\\tablas\\tblclientes\\a\u00F1adir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3570B9F3-6CBA-48CF-B16E-95BB78BF8976}|Farmacia\\Farmacia.csproj|solutionrelative:farmacia\\forms\\admin_form\\tablas\\tblclientes\\a\u00F1adir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3570B9F3-6CBA-48CF-B16E-95BB78BF8976}|Farmacia\\Farmacia.csproj|C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\farmacia\\forms\\admin_form\\tablas\\tblclientes\\a\u00F1adir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3570B9F3-6CBA-48CF-B16E-95BB78BF8976}|Farmacia\\Farmacia.csproj|solutionrelative:farmacia\\forms\\admin_form\\tablas\\tblclientes\\a\u00F1adir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A3139BCD-ED4D-4036-B012-D6154763B683}|DataBase\\DataBase.csproj|c:\\users\\admin\\desktop\\proyecto-farmacia\\farmacia\\database\\consultas_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3139BCD-ED4D-4036-B012-D6154763B683}|DataBase\\DataBase.csproj|solutionrelative:database\\consultas_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,7 +31,7 @@
       "RelativeMoniker": "D:0:0:{1343DD64-9891-4FAC-956C-6E8520FD8D48}|Logica_Datos1\\Logica_Datos1.csproj|solutionrelative:logica_datos1\\consultas_clientesdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3570B9F3-6CBA-48CF-B16E-95BB78BF8976}|Farmacia\\Farmacia.csproj|c:\\users\\admin\\desktop\\proyecto-farmacia\\farmacia\\farmacia\\forms\\admin_form\\tablas\\tblclientes\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3570B9F3-6CBA-48CF-B16E-95BB78BF8976}|Farmacia\\Farmacia.csproj|C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\farmacia\\forms\\admin_form\\tablas\\tblclientes\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3570B9F3-6CBA-48CF-B16E-95BB78BF8976}|Farmacia\\Farmacia.csproj|solutionrelative:farmacia\\forms\\admin_form\\tablas\\tblclientes\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -31,6 +51,67 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Consultas_VentasDAL.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Logica_Datos1\\Consultas_VentasDAL.cs",
+              "RelativeDocumentMoniker": "Logica_Datos1\\Consultas_VentasDAL.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Logica_Datos1\\Consultas_VentasDAL.cs",
+              "RelativeToolTip": "Logica_Datos1\\Consultas_VentasDAL.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T13:36:00.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Consultas_Ventas.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\DataBase\\Consultas_Ventas.cs",
+              "RelativeDocumentMoniker": "DataBase\\Consultas_Ventas.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\DataBase\\Consultas_Ventas.cs",
+              "RelativeToolTip": "DataBase\\Consultas_Ventas.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T13:35:50.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\DataBase\\Conexion.cs",
+              "RelativeDocumentMoniker": "DataBase\\Conexion.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\DataBase\\Conexion.cs",
+              "RelativeToolTip": "DataBase\\Conexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T13:32:53.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "A\u00F1adir.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\Forms\\Admin_Form\\Tablas\\tblClientes\\A\u00F1adir.cs",
+              "RelativeDocumentMoniker": "Farmacia\\Forms\\Admin_Form\\Tablas\\tblClientes\\A\u00F1adir.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\Forms\\Admin_Form\\Tablas\\tblClientes\\A\u00F1adir.cs",
+              "RelativeToolTip": "Farmacia\\Forms\\Admin_Form\\Tablas\\tblClientes\\A\u00F1adir.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T14:56:35.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "A\u00F1adir.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\Forms\\Admin_Form\\Tablas\\tblClientes\\A\u00F1adir.cs",
+              "RelativeDocumentMoniker": "Farmacia\\Forms\\Admin_Form\\Tablas\\tblClientes\\A\u00F1adir.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\Forms\\Admin_Form\\Tablas\\tblClientes\\A\u00F1adir.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Farmacia\\Forms\\Admin_Form\\Tablas\\tblClientes\\A\u00F1adir.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T14:56:30.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Consultas_Clientes.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\DataBase\\Consultas_Clientes.cs",
               "RelativeDocumentMoniker": "DataBase\\Consultas_Clientes.cs",
@@ -38,12 +119,11 @@
               "RelativeToolTip": "DataBase\\Consultas_Clientes.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T14:55:56.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T14:55:56.959Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Consultas_ClientesDAL.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Logica_Datos1\\Consultas_ClientesDAL.cs",
               "RelativeDocumentMoniker": "Logica_Datos1\\Consultas_ClientesDAL.cs",
@@ -51,24 +131,22 @@
               "RelativeToolTip": "Logica_Datos1\\Consultas_ClientesDAL.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T14:55:34.649Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T14:55:34.649Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Clientes.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\Forms\\Admin_Form\\Tablas\\tblClientes\\Clientes.cs",
               "RelativeDocumentMoniker": "Farmacia\\Forms\\Admin_Form\\Tablas\\tblClientes\\Clientes.cs",
               "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\Forms\\Admin_Form\\Tablas\\tblClientes\\Clientes.cs [Dise\u00F1o]",
               "RelativeToolTip": "Farmacia\\Forms\\Admin_Form\\Tablas\\tblClientes\\Clientes.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T14:54:47.586Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-09-30T14:54:47.586Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "FarmaciaWeb\\Views\\Shared\\_Layout.cshtml",
@@ -76,8 +154,7 @@
               "RelativeToolTip": "FarmaciaWeb\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-28T18:52:55.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T18:52:55.942Z"
             }
           ]
         }

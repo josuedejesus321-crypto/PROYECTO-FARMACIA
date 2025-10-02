@@ -290,7 +290,7 @@ c:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\F
 c:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\ref\FarmaciaWeb.dll
 C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\fr2f3fuim0-qqragfkz6y.gz
 C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\ijvqkprgua-qqragfkz6y.gz
-C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\farmaciaweb\obj\Debug\net9.0\compressed\c4wlahe62j-erstm1c4vj.gz
-C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\farmaciaweb\obj\Debug\net9.0\compressed\m72q31fqr8-uehd0ktbpv.gz
 C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\m72q31fqr8-e4sql28bwo.gz
 C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\c4wlahe62j-cacxdtk3id.gz
+C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\m72q31fqr8-lr0faqqyxz.gz
+C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\c4wlahe62j-g748enbhao.gz
