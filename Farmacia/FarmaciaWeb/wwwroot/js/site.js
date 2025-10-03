@@ -107,4 +107,13 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+//Loader
+// Cuando la página termine de cargar
+window.addEventListener("load", function () {
+    const loader = document.getElementById("loader-wrapper");
+    if (loader) {
+        loader.classList.add("fade-out");
+    }
+});
+
 

@@ -292,5 +292,5 @@ C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debu
 C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\ijvqkprgua-qqragfkz6y.gz
 C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\m72q31fqr8-e4sql28bwo.gz
 C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\c4wlahe62j-cacxdtk3id.gz
-C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\m72q31fqr8-lr0faqqyxz.gz
-C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\c4wlahe62j-g748enbhao.gz
+C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\m72q31fqr8-joiti9l20r.gz
+C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\c4wlahe62j-95r9z4y9mz.gz
