@@ -11,9 +11,9 @@ namespace LogicaCompartida.DataAccess
     public class Consultas_Historial_Usuarios
     {
         //-------------------------------------------------------------Presentar registros del historial de usuarios
-        public static List<HistorialUsuario> ObtenerTodoElHistorialUsuarios()
+        public static List<Definir_Historial_Usuario> ObtenerTodoElHistorialUsuarios()
         {
-            List<HistorialUsuario> lista = new List<HistorialUsuario>();
+            List<Definir_Historial_Usuario> lista = new List<Definir_Historial_Usuario>();
 
             using (SqlConnection conexion = LogicaCompartida.DataAccess.Conexion.ObtenerConexion())
             {
@@ -25,7 +25,7 @@ namespace LogicaCompartida.DataAccess
                 {
                     while (reader.Read())
                     {
-                        HistorialUsuario historial = new HistorialUsuario
+                        Definir_Historial_Usuario historial = new Definir_Historial_Usuario
                         {
                             IdHistorialUsuario = reader.GetInt32(0),
                             NombreUsuario = reader.GetString(1),
@@ -42,9 +42,9 @@ namespace LogicaCompartida.DataAccess
         }
 
         //-------------------------------------------------------------Buscar registros de usuarios por Nombre de Usuario
-        public static List<HistorialUsuario> BuscarUsuariosPorNombreUsuario(string nombreUsuario)
+        public static List<Definir_Historial_Usuario> BuscarUsuariosPorNombreUsuario(string nombreUsuario)
         {
-            List<HistorialUsuario> lista = new List<HistorialUsuario>();
+            List<Definir_Historial_Usuario> lista = new List<Definir_Historial_Usuario>();
 
             using (SqlConnection conexion = LogicaCompartida.DataAccess.Conexion.ObtenerConexion())
             {
@@ -57,7 +57,7 @@ namespace LogicaCompartida.DataAccess
                 {
                     while (reader.Read())
                     {
-                        HistorialUsuario historial = new HistorialUsuario
+                        Definir_Historial_Usuario historial = new Definir_Historial_Usuario
                         {
                             IdHistorialUsuario = reader.GetInt32(0),
                             NombreUsuario = reader.GetString(1),

@@ -10,12 +10,12 @@ namespace LogicaCompartida.Services
 {
     public class HistorialUsuarioBLL 
     {
-        public List<HistorialUsuario> ObtenerTodoElHistorialUsuarios()
+        public List<Definir_Historial_Usuario> ObtenerTodoElHistorialUsuarios()
         {
             return Consultas_Historial_Usuarios.ObtenerTodoElHistorialUsuarios();
         }
 
-        public List<HistorialUsuario> BuscarUsuariosPorNombreUsuario(string nombreUsuario)
+        public List<Definir_Historial_Usuario> BuscarUsuariosPorNombreUsuario(string nombreUsuario)
         {
             return Consultas_Historial_Usuarios.BuscarUsuariosPorNombreUsuario(nombreUsuario);        }
 

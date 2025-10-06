@@ -1,0 +1,79 @@
+@model List<LogicaCompartida.Entidades.Definir_Historial_Usuario>
+@{
+    ViewData["Title"] = "Historial de Usuarios";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <h2>@ViewData["Title"]</h2>
+
+            @if (ViewBag.Error != null)
+            {
+                <div class="alert alert-danger">@ViewBag.Error</div>
+            }
+
+            @if (TempData["Success"] != null)
+            {
+                <div class="alert alert-success">@TempData["Success"]</div>
+            }
+
+            @if (TempData["Error"] != null)
+            {
+                <div class="alert alert-danger">@TempData["Error"]</div>
+            }
+
+                <div class="col-md-6">
+                <form method="get" action="@Url.Action("Search")" class="d-flex">
+                    <input type="text" name="searchTerm" class="form-control me-2" placeholder="Buscar usuario..." 
+                            value="@ViewBag.SearchTerm">
+                    <button type="submit" class="btn btn-outline-secondary">Buscar</button>
+                    @if (!string.IsNullOrEmpty(ViewBag.SearchTerm))
+                        {
+                            <a href="@Url.Action("Index")" class="btn btn-outline-secondary ms-2">Limpiar</a>
+                        }
+                    </form>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    @if (Model.Any())
+                    {
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Nombre De usuario</th>
+                                        <th>Contraseña</th>
+                                        <th>Rol</th>
+                                        <th>Fecha de Registro</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var historialUsuario in Model)
+                                    {
+                                        <tr>
+                                            <td>@historialUsuario.IdHistorialUsuario</td>
+                                            <td>@historialUsuario.NombreUsuario</td>
+                                            <td>@historialUsuario.Contraseña</td>
+                                            <td>@historialUsuario.Rol</td>
+                                            <td>@historialUsuario.FechaRegistro</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="text-center">
+                            <p class="text-muted">No se encontraron Usuarios.</p>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

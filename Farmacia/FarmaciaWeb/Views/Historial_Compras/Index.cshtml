@@ -1,6 +1,6 @@
-@model List<LogicaCompartida.Entidades.Definir_Clientes.Cliente>
+@model List<LogicaCompartida.Entidades.HistorialCompra>
 @{
-    ViewData["Title"] = "Gestión de Clientes";
+    ViewData["Title"] = "Historial de Compras";
 }
 
 <div class="container-fluid">
@@ -23,16 +23,11 @@
                 <div class="alert alert-danger">@TempData["Error"]</div>
             }
 
-            <div class="row mb-3">
-                <div class="col-md-6">
-                    <a href="@Url.Action("Create")" class="btn btn-primary">
-                        <i class="fas fa-plus"></i> Nuevo Cliente
-                    </a>
-                </div>
+            
                 <div class="col-md-6">
                     <form method="get" action="@Url.Action("Search")" class="d-flex">
-                        <input type="text" name="searchTerm" class="form-control me-2" placeholder="Buscar cliente..." 
-                               value="@ViewBag.SearchTerm">
+                        <input type="text" name="searchTerm" class="form-control me-2" placeholder="Buscar Compra..." 
+                                value="@ViewBag.SearchTerm">
                         <button type="submit" class="btn btn-outline-secondary">Buscar</button>
                         @if (!string.IsNullOrEmpty(ViewBag.SearchTerm))
                         {
@@ -50,34 +45,29 @@
                             <table class="table table-hover">
                                 <thead class="table-dark">
                                     <tr>
-                                        <th>ID</th>
-                                        <th>Nombre</th>
-                                        <th>Teléfono</th>
-                                        <th>Email</th>
-                                        <th>Dirección</th>
-                                        <th class="text-center">Acciones</th>
+                                        <th>Id Historial Compra</th>
+                                        <th>Id Compra</th>
+                                        <th>Id Proveedor</th>
+                                        <th>Fecha Compra</th>
+                                        <th>Nombre del Medicamento</th>
+                                        <th>Cantidad Comprada</th>
+                                        <th>Precio Unidad</th>
+                                        <th>Id Empleado</th>
+                                        
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    @foreach (var cliente in Model)
+                                    @foreach (var historialCompra in Model)
                                     {
                                         <tr>
-                                            <td>@cliente.IdCliente</td>
-                                            <td>@cliente.Nombre</td>
-                                            <td>@cliente.Telefono</td>
-                                            <td>@cliente.Email</td>
-                                            <td>@cliente.Direccion</td>
-                                            <td class="text-center">
-                                                <a href="@Url.Action("Edit", new { id = cliente.IdCliente })" 
-                                                   class="btn btn-sm btn-warning me-1">
-                                                    <i class="fas fa-edit"></i> Editar
-                                                </a>
-                                                <a href="@Url.Action("Delete", new { id = cliente.IdCliente })" 
-                                                   class="btn btn-sm btn-danger"
-                                                   onclick="return confirm('¿Está seguro de eliminar este cliente?')">
-                                                    <i class="fas fa-trash"></i> Eliminar
-                                                </a>
-                                            </td>
+                                            <td>@historialCompra.IdHistorialCompra</td>
+                                            <td>@historialCompra.IdCompra</td>
+                                            <td>@historialCompra.IdProveedor</td>
+                                            <td>@historialCompra.FechaCompra</td>
+                                            <td>@historialCompra.NombreMedicamento</td>
+                                            <td>@historialCompra.CantidadComprada</td>
+                                            <td>@historialCompra.PrecioUnidad</td>
+                                            <td>@historialCompra.IdEmpleado</td>
                                         </tr>
                                     }
                                 </tbody>
@@ -87,7 +77,7 @@
                     else
                     {
                         <div class="text-center">
-                            <p class="text-muted">No se encontraron clientes.</p>
+                            <p class="text-muted">No se encontraron compras.</p>
                         </div>
                     }
                 </div>

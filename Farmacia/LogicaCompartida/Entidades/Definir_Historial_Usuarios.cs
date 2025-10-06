@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LogicaCompartida.Entidades
 {
-    public class HistorialUsuario
+    public class Definir_Historial_Usuario
     {
         public int IdHistorialUsuario { get; set; }
         public string NombreUsuario { get; set; }
@@ -14,9 +14,9 @@ namespace LogicaCompartida.Entidades
         public string Rol { get; set; }
         public DateTime FechaRegistro { get; set; }
 
-        public HistorialUsuario() { }
+        public Definir_Historial_Usuario() { }
 
-        public HistorialUsuario(string nombreUsuario, string contraseña, string rol, DateTime fechaRegistro)
+        public Definir_Historial_Usuario(string nombreUsuario, string contraseña, string rol, DateTime fechaRegistro)
         {
             NombreUsuario = nombreUsuario;
             Contraseña = contraseña;

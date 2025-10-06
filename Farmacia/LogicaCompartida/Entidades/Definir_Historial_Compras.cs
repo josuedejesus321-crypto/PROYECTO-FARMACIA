@@ -12,6 +12,8 @@ namespace LogicaCompartida.Entidades
         public int IdCompra { get; set; }
         public int IdProveedor { get; set; }
         public DateTime FechaCompra { get; set; }
+
+        public string NombreMedicamento { get; set; }
         public int IdMedicamento { get; set; }
         public int CantidadComprada { get; set; }
         public decimal PrecioUnidad { get; set; }
@@ -19,11 +21,12 @@ namespace LogicaCompartida.Entidades
 
         public HistorialCompra() { }
 
-        public HistorialCompra(int idCompra, int idProveedor, DateTime fechaCompra, int idMedicamento, int cantidadComprada, decimal precioUnidad, int? idEmpleado)
+        public HistorialCompra(int idCompra, int idProveedor, DateTime fechaCompra, int idMedicamento, int cantidadComprada, decimal precioUnidad, int? idEmpleado, string nombreMedicamento)
         {
             IdCompra = idCompra;
             IdProveedor = idProveedor;
             FechaCompra = fechaCompra;
+            NombreMedicamento = nombreMedicamento;
             IdMedicamento = idMedicamento;
             CantidadComprada = cantidadComprada;
             PrecioUnidad = precioUnidad;

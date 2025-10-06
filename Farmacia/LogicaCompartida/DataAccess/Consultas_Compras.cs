@@ -23,8 +23,9 @@ namespace LogicaCompartida.DataAccess
                 using (SqlConnection conexion = LogicaCompartida.DataAccess.Conexion.ObtenerConexion())
                 {
                     
-                    string query = "INSERT INTO Compras (IdProveedor, FechaCompra, IdMedicamento, CantidadComprada, PrecioUnidad) " +
-                                   "VALUES (@IdProveedor, @FechaCompra, @IdMedicamento, @CantidadComprada, @PrecioUnidad)";
+
+                    string query = "INSERT INTO Compras (IdProveedor, FechaCompra, IdMedicamento, CantidadComprada, PrecioUnidad, IdEmpleado) " +
+                                "VALUES (@IdProveedor, @FechaCompra, @IdMedicamento, @CantidadComprada, @PrecioUnidad, @IdEmpleado)";
 
                     SqlCommand comando = new SqlCommand(query, conexion);
 
@@ -33,7 +34,9 @@ namespace LogicaCompartida.DataAccess
                     comando.Parameters.AddWithValue("@FechaCompra", compra.FechaCompra);
                     comando.Parameters.AddWithValue("@IdMedicamento", compra.IdMedicamento);
                     comando.Parameters.AddWithValue("@CantidadComprada", compra.CantidadComprada);
-                    comando.Parameters.AddWithValue("@PrecioUnidad", compra.PrecioUnidad);       
+                    comando.Parameters.AddWithValue("@PrecioUnidad", compra.PrecioUnidad);
+                    comando.Parameters.AddWithValue("@IdEmpleado", compra.IdEmpleado);
+                    
                     retorna = comando.ExecuteNonQuery();
                 }
                 return retorna;
@@ -47,11 +50,11 @@ namespace LogicaCompartida.DataAccess
 
                 using (SqlConnection conexion = LogicaCompartida.DataAccess.Conexion.ObtenerConexion())
                 {
-                    string query = "SELECT IdCompra, IdProveedor, FechaCompra, IdMedicamento, CantidadComprada, PrecioUnidad FROM Compras";
+
+                    string query = "SELECT IdCompra, IdProveedor, FechaCompra, IdMedicamento, CantidadComprada, PrecioUnidad, IdEmpleado FROM Compras";
                     SqlCommand comando = new SqlCommand(query, conexion);
 
                     
-
                     using (SqlDataReader reader = comando.ExecuteReader())
                     {
                         while (reader.Read())
@@ -63,6 +66,7 @@ namespace LogicaCompartida.DataAccess
                             compra.IdMedicamento = reader.GetInt32(3);
                             compra.CantidadComprada = reader.GetInt32(4);
                             compra.PrecioUnidad = reader.GetDecimal(5);
+                            compra.IdEmpleado = reader.GetInt32(6); 
 
                             Lista.Add(compra);
                         }
@@ -80,12 +84,13 @@ namespace LogicaCompartida.DataAccess
                 {
                     conexion.Open(); 
                     string query = "UPDATE Compras SET " +
-                                   "IdProveedor = @IdProveedor, " +
-                                   "FechaCompra = @FechaCompra, " +
-                                   "IdMedicamento = @IdMedicamento, " +
-                                   "CantidadComprada = @CantidadComprada, " +
-                                   "PrecioUnidad = @PrecioUnidad " +
-                                   "WHERE IdCompra = @IdCompra";
+                                "IdProveedor = @IdProveedor, " +
+                                "FechaCompra = @FechaCompra, " +
+                                "IdMedicamento = @IdMedicamento, " +
+                                "CantidadComprada = @CantidadComprada, " +
+                                "PrecioUnidad = @PrecioUnidad, " + 
+                                "IdEmpleado = @IdEmpleado " +
+                                "WHERE IdCompra = @IdCompra";
 
                     SqlCommand comando = new SqlCommand(query, conexion);
 
@@ -94,6 +99,7 @@ namespace LogicaCompartida.DataAccess
                     comando.Parameters.AddWithValue("@IdMedicamento", compra.IdMedicamento);
                     comando.Parameters.AddWithValue("@CantidadComprada", compra.CantidadComprada);
                     comando.Parameters.AddWithValue("@PrecioUnidad", compra.PrecioUnidad);
+                    comando.Parameters.AddWithValue("@IdEmpleado", compra.IdEmpleado); 
                     comando.Parameters.AddWithValue("@IdCompra", compra.IdCompra);
 
                     result = comando.ExecuteNonQuery();
@@ -130,10 +136,10 @@ namespace LogicaCompartida.DataAccess
 
                         transaction.Commit();
                     }
-                    catch (SqlException ex) // Capturar excepciones específicas de SQL
+                    catch (SqlException ex) // Capturar excepciones especficas de SQL
                     {
                         transaction.Rollback();
-                        // Lanzar una excepción personalizada o la excepción original para que la capa superior la maneje
+                        // Lanzar una excepcin personalizada o la excepcin original para que la capa superior la maneje
                         throw new Exception($"Error al eliminar la compra en la base de datos: {ex.Message}", ex);
                     }
                     finally
@@ -154,7 +160,8 @@ namespace LogicaCompartida.DataAccess
                 using (SqlConnection conexion = LogicaCompartida.DataAccess.Conexion.ObtenerConexion())
                 {
                     
-                    string query = "SELECT IdCompra, IdProveedor, FechaCompra, IdMedicamento, CantidadComprada, PrecioUnidad FROM Compras WHERE IdCompra = @IdCompra";
+                    
+                    string query = "SELECT IdCompra, IdProveedor, FechaCompra, IdMedicamento, CantidadComprada, PrecioUnidad, IdEmpleado FROM Compras WHERE IdCompra = @IdCompra";
                     SqlCommand comando = new SqlCommand(query, conexion);
 
                     if (int.TryParse(idCompra, out idCompraABuscar))
@@ -178,7 +185,8 @@ namespace LogicaCompartida.DataAccess
                                 FechaCompra = reader.GetDateTime(2),
                                 IdMedicamento = reader.GetInt32(3),
                                 CantidadComprada = reader.GetInt32(4),
-                                PrecioUnidad = reader.GetDecimal(5)
+                                PrecioUnidad = reader.GetDecimal(5),
+                                IdEmpleado = reader.GetInt32(6)
                             };
                             lista.Add(compra);
                         }

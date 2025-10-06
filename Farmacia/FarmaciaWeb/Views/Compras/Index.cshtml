@@ -32,7 +32,7 @@
                 <div class="col-md-6">
                     <form method="get" action="@Url.Action("Search")" class="d-flex">
                         <input type="text" name="searchTerm" class="form-control me-2" placeholder="Buscar Compra..." 
-                               value="@ViewBag.SearchTerm">
+                                value="@ViewBag.SearchTerm">
                         <button type="submit" class="btn btn-outline-secondary">Buscar</button>
                         @if (!string.IsNullOrEmpty(ViewBag.SearchTerm))
                         {
@@ -70,7 +70,7 @@
                                             <td>@compras.IdMedicamento</td>
                                             <td>@compras.CantidadComprada</td>
                                             <td>@compras.PrecioUnidad</td>
-                                            <td>@compras.</td>
+                                            <td>@compras.IdEmpleado</td>
                                             <td class="text-center">
                                                 <a href="@Url.Action("Edit", new { id = compras.IdCompra })" 
                                                    class="btn btn-sm btn-warning me-1">

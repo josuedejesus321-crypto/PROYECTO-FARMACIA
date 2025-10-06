@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LogicaCompartida")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b63cc5301bafbb6ab1c8be3a73416a185a180a8b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e810f12cb732544530f410a45f739e0d4b39df5a")]
 [assembly: System.Reflection.AssemblyProductAttribute("LogicaCompartida")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LogicaCompartida")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
