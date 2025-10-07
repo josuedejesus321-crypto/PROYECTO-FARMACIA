@@ -87,7 +87,19 @@ body {
     vertical-align: middle;
 }
 
-/* --- Nuevos Estilos para Sidebar Oscuro (Sobrescritura) --- */
+/* --- Boton impresion --- */
+.top-app-bar .btn-outline-light {
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.top-app-bar .btn-outline-light:hover {
+    color: #ff4b4b;
+    transform: scale(1.1);
+}
+
 
 /* 1. Ocultar la barra de navegación horizontal original */
 .navbar-expand-sm {

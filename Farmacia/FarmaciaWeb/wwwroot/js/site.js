@@ -117,3 +117,70 @@ window.addEventListener("load", function () {
 });
 
 
+//esto es del pdf
+document.addEventListener("DOMContentLoaded", function () {
+    const pdfButton = document.getElementById("pdfButton");
+    if (!pdfButton) return;
+
+    pdfButton.addEventListener("click", async function () {
+        try {
+            // Clonar solo el body
+            const bodyClone = document.body.cloneNode(true);
+
+            // Quitar el botón PDF
+            const btnInClone = bodyClone.querySelector("#pdfButton");
+            if (btnInClone && btnInClone.parentNode) btnInClone.parentNode.removeChild(btnInClone);
+
+            // Seleccionar solo la primera tabla
+            const tabla = bodyClone.querySelector("table");
+            if (!tabla) {
+                alert("No se encontró ninguna tabla en la página.");
+                return;
+            }
+
+            // Limpiar body y dejar solo la tabla
+            bodyClone.innerHTML = "";
+            bodyClone.appendChild(tabla);
+
+            // Construir HTML completo con head y estilos
+            const htmlToSend = "<!DOCTYPE html>\n<html>\n<head>\n" +
+                document.head.innerHTML +
+                "<style>" +
+                "table { border-collapse: collapse; width: 100%; } " +
+                "th, td { border: 1px solid #000; padding: 5px; text-align: left; }" +
+                "</style>\n</head>\n<body>\n" +
+                bodyClone.innerHTML +
+                "\n</body>\n</html>";
+
+            const formData = new FormData();
+            formData.append("html", htmlToSend);
+            const filename = (document.title ? document.title.trim() : "Reporte") + ".pdf";
+            formData.append("fileName", filename);
+
+            const response = await fetch("/Export/GenerarPdfFromHtml", {
+                method: "POST",
+                body: formData
+            });
+
+            if (!response.ok) {
+                const text = await response.text();
+                alert("Error al generar el PDF: " + text);
+                return;
+            }
+
+            const blob = await response.blob();
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            a.remove();
+            URL.revokeObjectURL(url);
+
+        } catch (err) {
+            console.error("Error al generar PDF:", err);
+            alert("Error al generar el PDF: " + (err.message || err));
+        }
+    });
+});

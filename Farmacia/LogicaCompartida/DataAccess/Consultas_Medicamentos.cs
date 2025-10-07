@@ -22,6 +22,7 @@ namespace LogicaCompartida.DataAccess
 
                 using (SqlConnection conexion = LogicaCompartida.DataAccess.Conexion.ObtenerConexion())
                 {
+                   
 
                     string query = "EXEC SP_insertar_datos_medicamento " +
                         "@Nombre, @NombreGenerico, @Categoria, @Estante, " +

@@ -1,7 +1,12 @@
+using LogicaCompartida.Services; // <-- 1. Añade este 'using' para encontrar DashBoardBLL
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// 2. ¡REGISTRO CLAVE! Añade esta línea para registrar la clase BLL
+builder.Services.AddScoped<DashBoardBLL>();
 
 var app = builder.Build();
 

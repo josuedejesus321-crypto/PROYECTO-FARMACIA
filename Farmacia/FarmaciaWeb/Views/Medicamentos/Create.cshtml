@@ -11,7 +11,7 @@
                     <h3>@ViewData["Title"]</h3>
                 </div>
                 <div class="card-body">
-                    @if (ViewBag.Error != null)
+                    @if (!string.IsNullOrEmpty(ViewBag.Error as string))
                     {
                         <div class="alert alert-danger">@ViewBag.Error</div>
                     }
@@ -60,8 +60,10 @@
                         </div>
 
                         <div class="mb-3">
-                            <label asp-for="IdProveedor" class="form-label">Id Proveedor *</label>
-                            <input asp-for="IdProveedor" class="form-control" placeholder="Ingrese el Id del proveedor" required />
+                            <label asp-for="IdProveedor" class="form-label">Proveedor *</label>
+                            <select asp-for="IdProveedor" class="form-control" asp-items="ViewBag.Proveedores" required>
+                                <option value="">-- Seleccione un proveedor --</option>
+                            </select>
                             <span asp-validation-for="IdProveedor" class="text-danger"></span>
                         </div>
 
@@ -70,7 +72,7 @@
                                 <i class="fas fa-arrow-left"></i> Volver
                             </a>
                             <button type="submit" class="btn btn-primary">
-                                <i class="fas fa-save"></i> Guardar Cliente
+                                <i class="fas fa-save"></i> Guardar Medicamento
                             </button>
                         </div>
                     </form>

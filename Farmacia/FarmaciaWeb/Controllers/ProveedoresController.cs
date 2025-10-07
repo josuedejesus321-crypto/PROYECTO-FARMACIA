@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using LogicaCompartida.Entidades;
 using LogicaCompartida.DataAccess;
 using static LogicaCompartida.Entidades.Definir_Proveedores;
+using SelectPdf;
 
 namespace FarmaciaWeb.Controllers
 {

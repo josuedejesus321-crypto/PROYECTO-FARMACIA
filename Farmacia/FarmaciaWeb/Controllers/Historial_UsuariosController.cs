@@ -4,6 +4,7 @@ using LogicaCompartida.DataAccess;
 // Quitar: using static LogicaCompartida.Entidades.Definir_Historial_Usuario;
 using Microsoft.IdentityModel.Tokens;
 using System.Collections.Generic; // Asegurar que System.Collections.Generic esté disponible
+using SelectPdf;
 
 namespace FarmaciaWeb.Controllers
 {

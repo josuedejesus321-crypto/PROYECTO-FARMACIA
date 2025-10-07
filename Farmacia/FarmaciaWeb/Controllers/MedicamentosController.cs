@@ -1,7 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using LogicaCompartida.Entidades;
 using LogicaCompartida.DataAccess;
 using static LogicaCompartida.Entidades.Definir_Medicamentos;
+using SelectPdf;
+
 
 namespace FarmaciaWeb.Controllers
 {
@@ -23,12 +26,19 @@ namespace FarmaciaWeb.Controllers
 
         public IActionResult Create()
         {
+            // Cargar proveedores para el dropdown
+            var proveedores = Consultas_Proveedores.ProveedoresDAL.PresentaRegistroProveedores();
+            ViewBag.Proveedores = new SelectList(proveedores, "IdProveedor", "Nombre");
             return View();
         }
 
         [HttpPost]
         public IActionResult Create(Medicamentos medicamento)
         {
+            // Volver a cargar proveedores en caso de error
+            var proveedores = Consultas_Proveedores.ProveedoresDAL.PresentaRegistroProveedores();
+            ViewBag.Proveedores = new SelectList(proveedores, "IdProveedor", "Nombre");
+
             try
             {
                 if (ModelState.IsValid)
@@ -38,6 +48,10 @@ namespace FarmaciaWeb.Controllers
                     {
                         TempData["Success"] = "Medicamento agregado exitosamente";
                         return RedirectToAction("Index");
+                    }
+                    else
+                    {
+                        ViewBag.Error = "No se pudo agregar el medicamento";
                     }
                 }
                 return View(medicamento);
@@ -59,6 +73,11 @@ namespace FarmaciaWeb.Controllers
                 {
                     return NotFound();
                 }
+
+                // Cargar proveedores para el dropdown
+                var proveedores = Consultas_Proveedores.ProveedoresDAL.PresentaRegistroProveedores();
+                ViewBag.Proveedores = new SelectList(proveedores, "IdProveedor", "Nombre", medicamento.IdProveedor);
+
                 return View(medicamento);
             }
             catch (Exception ex)
@@ -71,6 +90,10 @@ namespace FarmaciaWeb.Controllers
         [HttpPost]
         public IActionResult Edit(Medicamentos medicamento)
         {
+            // Volver a cargar proveedores en caso de error
+            var proveedores = Consultas_Proveedores.ProveedoresDAL.PresentaRegistroProveedores();
+            ViewBag.Proveedores = new SelectList(proveedores, "IdProveedor", "Nombre", medicamento.IdProveedor);
+
             try
             {
                 if (ModelState.IsValid)
@@ -80,6 +103,10 @@ namespace FarmaciaWeb.Controllers
                     {
                         TempData["Success"] = "Medicamento actualizado exitosamente";
                         return RedirectToAction("Index");
+                    }
+                    else
+                    {
+                        ViewBag.Error = "No se pudo actualizar el medicamento";
                     }
                 }
                 return View(medicamento);

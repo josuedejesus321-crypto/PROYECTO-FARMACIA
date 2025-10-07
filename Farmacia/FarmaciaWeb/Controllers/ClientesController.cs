@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using LogicaCompartida.Entidades;
 using LogicaCompartida.DataAccess;
 using static LogicaCompartida.Entidades.Definir_Clientes;
+using SelectPdf;
 
 namespace FarmaciaWeb.Controllers
 {
@@ -18,6 +19,36 @@ namespace FarmaciaWeb.Controllers
             {
                 ViewBag.Error = "Error al cargar los clientes: " + ex.Message;
                 return View(new List<Cliente>());
+            }
+        }
+
+        [HttpGet]
+        public IActionResult GenerarPdf()
+        {
+            try
+            {
+                // Generar URL completa del Index de clientes
+                string url = $"{Request.Scheme}://{Request.Host}/Clientes/Index";
+
+                // Crear el convertidor HTML a PDF
+                HtmlToPdf converter = new HtmlToPdf();
+                converter.Options.PdfPageSize = PdfPageSize.A4;
+                converter.Options.PdfPageOrientation = PdfPageOrientation.Portrait;
+
+                // Convertir la página actual en PDF
+                PdfDocument doc = converter.ConvertUrl(url);
+
+                // Guardar el PDF en memoria
+                byte[] pdf = doc.Save();
+                doc.Close();
+
+                // Retornar el archivo PDF al navegador
+                return File(pdf, "application/pdf", "Clientes_Reporte.pdf");
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Error = "Error al generar el PDF: " + ex.Message;
+                return RedirectToAction("Index");
             }
         }
 

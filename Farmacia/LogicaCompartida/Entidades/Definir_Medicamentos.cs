@@ -17,14 +17,14 @@ namespace LogicaCompartida.Entidades
             public string Estante { get; set; }
             public decimal PrecioVenta { get; set; }
             public decimal PrecioProveedor { get; set; }
-            public byte[] Imagen { get; set; }
+            public string? Imagen { get; set; }
             public int Stock { get; set; }
             public int IdProveedor { get; set; }
 
 
             public Medicamentos() { }
 
-            public Medicamentos(string nombre, string nombreGenerico, string categoria, string estante, decimal precioVenta, decimal precioProveedor, byte[] imagen, int stock, int idProveedor)
+            public Medicamentos(string nombre, string nombreGenerico, string categoria, string estante, decimal precioVenta, decimal precioProveedor, string? imagen, int stock, int idProveedor)
             {
                 this.Nombre = nombre;
                 this.NombreGenerico = nombreGenerico;
@@ -32,7 +32,7 @@ namespace LogicaCompartida.Entidades
                 this.Estante = estante;
                 this.PrecioVenta = precioVenta;
                 this.PrecioProveedor = precioProveedor;
-                this.Imagen = imagen;
+                this.Imagen = null;
                 this.Stock = stock;
                 this.IdProveedor = idProveedor;
 

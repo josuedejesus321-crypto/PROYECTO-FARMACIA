@@ -4,6 +4,7 @@ using LogicaCompartida.DataAccess;
 using System;
 using System.Collections.Generic;
 using static LogicaCompartida.Entidades.Definir_Historial_Ventas;
+using SelectPdf;
 
 namespace FarmaciaWeb.Controllers
 {

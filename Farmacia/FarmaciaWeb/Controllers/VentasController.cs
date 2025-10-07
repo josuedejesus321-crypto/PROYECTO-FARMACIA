@@ -2,6 +2,7 @@
 using LogicaCompartida.Entidades;
 using LogicaCompartida.DataAccess;
 using static LogicaCompartida.Entidades.Definir_Ventas;
+using SelectPdf;
 
 namespace FarmaciaWeb.Controllers
 {

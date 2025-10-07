@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/FarmaciaWeb.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/dashboard.css" asp-append-version="true" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 </head>
 <body>
@@ -19,12 +20,19 @@
 
     
     <nav class="top-app-bar">
-        <div class="container-fluid d-flex ">
-            <button id="sidebarToggle" class="btn menu-open-button-fixed" type="button" aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-            </button>
-        </div>
-    </nav>
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+        <button id="sidebarToggle" class="btn menu-open-button-fixed" type="button" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- BOTÓN PDF -->
+        <button id="pdfButton" class="btn btn-outline-danger" title="Exportar PDF">
+            <i class="fas fa-file-pdf"></i>
+        </button>
+    </div>
+</nav>
+
+
     
     <div class="custom-sidebar-style" id="sidebarMenu">
     <div class="sidebar-header-container">
