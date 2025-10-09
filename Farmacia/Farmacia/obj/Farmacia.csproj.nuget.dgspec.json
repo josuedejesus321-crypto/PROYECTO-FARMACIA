@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\Farmacia.csproj": {}
+    "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\Farmacia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\DataBase\\DataBase.csproj": {
+    "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\DataBase\\DataBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\DataBase\\DataBase.csproj",
+        "projectUniqueName": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\DataBase\\DataBase.csproj",
         "projectName": "DataBase",
-        "projectPath": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\DataBase\\DataBase.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\DataBase\\obj\\",
+        "projectPath": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\DataBase\\DataBase.csproj",
+        "packagesPath": "C:\\Users\\Yeison De Jesus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\DataBase\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Yeison De Jesus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Yeison De Jesus\\Downloads": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Entidades\\Entidades.csproj"
+              "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Entidades\\Entidades.csproj"
               }
             }
           }
@@ -84,24 +85,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.305, 9.0.305]"
+            }
+          ],
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Entidades\\Entidades.csproj": {
+    "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Entidades\\Entidades.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Entidades\\obj\\",
+        "projectPath": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Entidades\\Entidades.csproj",
+        "packagesPath": "C:\\Users\\Yeison De Jesus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Yeison De Jesus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -110,6 +117,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Yeison De Jesus\\Downloads": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -160,24 +168,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.305, 9.0.305]"
+            }
+          ],
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\Farmacia.csproj": {
+    "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\Farmacia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\Farmacia.csproj",
+        "projectUniqueName": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\Farmacia.csproj",
         "projectName": "Farmacia",
-        "projectPath": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\Farmacia.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\obj\\",
+        "projectPath": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\Farmacia.csproj",
+        "packagesPath": "C:\\Users\\Yeison De Jesus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Farmacia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Yeison De Jesus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -186,17 +200,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Yeison De Jesus\\Downloads": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0-windows7.0": {
             "targetAlias": "net9.0-windows",
             "projectReferences": {
-              "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Entidades\\Entidades.csproj"
+              "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Entidades\\Entidades.csproj"
               },
-              "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Logica_Datos1\\Logica_Datos1.csproj": {
-                "projectPath": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Logica_Datos1\\Logica_Datos1.csproj"
+              "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Logica_Datos1\\Logica_Datos1.csproj": {
+                "projectPath": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Logica_Datos1\\Logica_Datos1.csproj"
               }
             }
           }
@@ -329,6 +344,10 @@
               "target": "Package",
               "version": "[1.20.1, )"
             },
+            "Select.HtmlToPdf.NetCore": {
+              "target": "Package",
+              "version": "[25.2.0, )"
+            },
             "SixLabors.Fonts": {
               "target": "Package",
               "version": "[2.1.3, )"
@@ -397,6 +416,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.305, 9.0.305]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -409,20 +434,20 @@
         }
       }
     },
-    "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Logica_Datos1\\Logica_Datos1.csproj": {
+    "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Logica_Datos1\\Logica_Datos1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Logica_Datos1\\Logica_Datos1.csproj",
+        "projectUniqueName": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Logica_Datos1\\Logica_Datos1.csproj",
         "projectName": "Logica_Datos1",
-        "projectPath": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Logica_Datos1\\Logica_Datos1.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Logica_Datos1\\obj\\",
+        "projectPath": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Logica_Datos1\\Logica_Datos1.csproj",
+        "packagesPath": "C:\\Users\\Yeison De Jesus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Logica_Datos1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Yeison De Jesus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -431,17 +456,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Yeison De Jesus\\Downloads": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\DataBase\\DataBase.csproj": {
-                "projectPath": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\DataBase\\DataBase.csproj"
+              "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\DataBase\\DataBase.csproj": {
+                "projectPath": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\DataBase\\DataBase.csproj"
               },
-              "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Entidades\\Entidades.csproj"
+              "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Entidades\\Entidades.csproj"
               }
             }
           }
@@ -488,6 +514,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.305, 9.0.305]"
+            }
+          ],
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
         }
       }

@@ -9,10 +9,9 @@
     --color-light-bg: #f5f5f5; 
 }
 
-/* Nota: Para el body y el dashboard-container, puedes omitir 
-   o modificar si ya hay estilos en site.css que hacen lo mismo. 
-   Dejaré los estilos específicos de las tarjetas. */
-
+/* ---------------------------------------------------- */
+/* CONTENEDOR DE TARJETAS */
+/* ---------------------------------------------------- */
 .dashboard-container {
     display: flex;
     flex-wrap: wrap; 
@@ -20,7 +19,7 @@
     max-width: 1200px;
     width: 100%;
     justify-content: center; 
-    margin: 20px auto; /* Centrar el contenedor en la página */
+    margin: 20px auto;
 }
 
 .card {
@@ -34,26 +33,38 @@
     overflow: hidden; 
 }
 
-/* Sección de la cabecera (Icono y Datos) */
+/* ---------------------------------------------------- */
+/* CABECERA (ICONO Y DATOS) */
+/* ---------------------------------------------------- */
 .card-header {
     display: flex;
-    padding: 15px 0; 
+    /* Reducimos el padding vertical y usamos el padding-right del card-info */
+    padding: 0; 
     align-items: center;
     position: relative;
-    background: linear-gradient(to right, white 30%, #f9f9f9 30%); 
+    /* Eliminamos el gradiente, la separación la dará el icono */
+    background: white;
 }
 
 /* Estilo del icono de fondo */
 .icon-bg {
-    font-size: 30px;
+    /* Ajustes para el desplazamiento hacia arriba */
+    align-items: center; /* Alinea los elementos al centro */
+    padding: 30px 0px 0px 30px;      /* Empuja el icono hacia abajo 30px desde el borde superior */    
+    font-size: 32px;
     color: white;
-    width: 80px; 
-    height: 80px;
+    width: 90px;
+    height: 90px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+    justify-content: center; /* Mantiene el centrado horizontal */
     z-index: 2; 
+    margin-right: 15px; 
+}
+
+.icon-bg i {
+    /* Elimina cualquier espaciado o altura de línea no deseada */
+    line-height: 1;
+    
 }
 
 /* Colores de fondo de la tarjeta (icono) */
@@ -66,27 +77,33 @@
 .card-info {
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
+    /* Quitamos el padding-left que ya no es necesario */
+    padding-left: 0;
     flex-grow: 1;
-    text-align: right;
+    /* Alinear a la izquierda para el texto como en tu imagen */
+    text-align: left; 
     padding-right: 20px;
 }
 
 .label {
-    font-size: 10px;
+    font-size: 14px; /* Un poco más grande para mejor lectura */
     color: var(--color-text-light);
-    font-weight: bold;
+    font-weight: 500;
     margin-bottom: 5px;
+    /* Aseguramos que el texto de la etiqueta esté en mayúsculas */
+    text-transform: uppercase; 
 }
 
 .value {
-    font-size: 32px;
+    font-size: 38px; /* Un poco más grande para el número */
     font-weight: bold;
     color: #333;
-    line-height: 1;
+    line-height: 1.1;
 }
 
-/* Sección del pie de página (Show Details) */
+/* ---------------------------------------------------- */
+/* PIE DE PÁGINA (SHOW DETAILS) */
+/* ---------------------------------------------------- */
 .card-footer {
     border-top: 1px solid #eee;
     padding: 10px 20px;

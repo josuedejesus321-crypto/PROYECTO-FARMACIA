@@ -290,9 +290,6 @@ c:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\F
 c:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\ref\FarmaciaWeb.dll
 C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\fr2f3fuim0-qqragfkz6y.gz
 C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\ijvqkprgua-qqragfkz6y.gz
-C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\m72q31fqr8-joiti9l20r.gz
-C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\c4wlahe62j-95r9z4y9mz.gz
-C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\2zvafds8b5-v7o8wbrfdq.gz
 C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\m72q31fqr8-pnkyzubqsa.gz
 C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\bin\Debug\net9.0\Select.Html.dep
@@ -304,3 +301,15 @@ C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\bin\Debug\net9.0\r
 C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\bin\Debug\net9.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\bin\Debug\net9.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\ADMIN\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\c4wlahe62j-a7ht1rv2f1.gz
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\bin\Debug\net9.0\Select.Html.dep
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\bin\Debug\net9.0\Select.HtmlToPdf.dll
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\bin\Debug\net9.0\System.Drawing.Common.dll
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\bin\Debug\net9.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\bin\Debug\net9.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\bin\Debug\net9.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\c4wlahe62j-a7ht1rv2f1.gz
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\2zvafds8b5-w4djp3emlt.gz
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\gn7i6nysff-3mowv9ufl3.gz
+C:\Users\Yeison De Jesus\Desktop\PROYECTO-FARMACIA\Farmacia\FarmaciaWeb\obj\Debug\net9.0\compressed\m72q31fqr8-lvdiugfw22.gz

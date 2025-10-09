@@ -22,6 +22,38 @@ namespace FarmaciaWeb.Controllers
             }
         }
 
+        // Añadir esta acción al final del ProveedoresController.cs
+
+public IActionResult Search(string searchTerm)
+{
+    try
+    {
+        List<Proveedores> proveedores;
+
+        if (string.IsNullOrEmpty(searchTerm))
+        {
+            // Si el término de búsqueda está vacío, muestra todos
+            proveedores = Consultas_Proveedores.ProveedoresDAL.PresentaRegistroProveedores();
+        }
+        else
+        {
+            // **IMPORTANTE:** Aquí necesitas un método en ProveedoresDAL para buscar por nombre o campo
+            // Asumo que tienes un método similar a BuscarClientesPorNombre
+            proveedores = Consultas_Proveedores.ProveedoresDAL.BuscarProveedoresPorNombre(searchTerm); 
+        }
+
+        ViewBag.SearchTerm = searchTerm;
+        // Retorna la vista "Index" con la lista filtrada o completa
+        return View("Index", proveedores);
+    }
+    catch (Exception ex)
+    {
+        ViewBag.Error = "Error en la búsqueda de proveedores: " + ex.Message;
+        // Retorna la vista "Index" con una lista vacía en caso de error
+        return View("Index", new List<Proveedores>());
+    }
+}
+
         public IActionResult Create()
         {
             return View();

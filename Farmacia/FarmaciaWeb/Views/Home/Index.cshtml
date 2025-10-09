@@ -1,7 +1,7 @@
 ﻿@model FarmaciaWeb.Models.DashboardViewModel
 @{
     // Esta parte es código C# que define el título de la página
-    ViewData["Title"] = "Dashboard de Farmacia";
+    ViewData["Title"] = "Inicio";
 }
 
 <div class="text-center">
@@ -14,12 +14,12 @@
         <div class="card-header">
             <i class="fas fa-paw icon-bg"></i>
             <div class="card-info">
-                <span class="label">TOTAL CUSTOMER</span>
+                <span class="label">TOTAL CLIENTES</span>
                 <span class="value" id="totalCustomers">@Model.TotalCustomers</span> 
             </div>
         </div>
         <div class="card-footer">
-            <a href="#" class="details-link">
+            <a href="CLIENTES" class="details-link">
                 <i class="fas fa-bars show-details-icon"></i> Show Details
             </a>
         </div>
@@ -29,12 +29,12 @@
         <div class="card-header">
             <i class="fas fa-pills icon-bg"></i>
             <div class="card-info">
-                <span class="label">TOTAL MEDICINE</span>
+                <span class="label">TOTAL MEDICAMENTOS</span>
                 <span class="value" id="totalMedicine">@Model.TotalMedicine</span>
             </div>
         </div>
         <div class="card-footer">
-            <a href="#" class="details-link">
+            <a href="MEDICAMENTOS" class="details-link">
                 <i class="fas fa-bars show-details-icon"></i> Show Details
             </a>
         </div>
@@ -44,12 +44,12 @@
         <div class="card-header">
             <i class="fas fa-vial icon-bg"></i>
             <div class="card-info">
-                <span class="label">OUT OF STOCK</span>
+                <span class="label">FUERA DE STOCK</span>
                 <span class="value" id="outOfStock">@Model.OutOfStock</span>
             </div>
         </div>
         <div class="card-footer">
-            <a href="#" class="details-link">
+            <a href="MEDICAMENTOS" class="details-link">
                 <i class="fas fa-bars show-details-icon"></i> Show Details
             </a>
         </div>
@@ -59,12 +59,12 @@
         <div class="card-header">
             <i class="fas fa-truck icon-bg"></i> 
             <div class="card-info">
-                <span class="label">TOTAL SUPPLIERS</span>
+                <span class="label">TOTAL PROVEEDORES</span>
                 <span class="value" id="totalSuppliers">@Model.TotalSuppliers</span>
             </div>
         </div>
         <div class="card-footer">
-            <a href="#" class="details-link">
+            <a href="PROVEEDORES" class="details-link">
                 <i class="fas fa-bars show-details-icon"></i> Show Details
             </a>
         </div>

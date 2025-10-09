@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicaCompartida", "LogicaC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarmaciaWeb", "FarmaciaWeb\FarmaciaWeb.csproj", "{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupProyectoFarmacia", "SetupProyectoFarmacia\SetupProyectoFarmacia.vdproj", "{CC47E161-6FF3-982E-7635-51D4E8518940}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,12 @@ Global
 		{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}.Release|x64.Build.0 = Release|Any CPU
 		{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}.Release|x86.ActiveCfg = Release|Any CPU
 		{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}.Release|x86.Build.0 = Release|Any CPU
+		{CC47E161-6FF3-982E-7635-51D4E8518940}.Debug|Any CPU.ActiveCfg = Debug
+		{CC47E161-6FF3-982E-7635-51D4E8518940}.Debug|x64.ActiveCfg = Debug
+		{CC47E161-6FF3-982E-7635-51D4E8518940}.Debug|x86.ActiveCfg = Debug
+		{CC47E161-6FF3-982E-7635-51D4E8518940}.Release|Any CPU.ActiveCfg = Release
+		{CC47E161-6FF3-982E-7635-51D4E8518940}.Release|x64.ActiveCfg = Release
+		{CC47E161-6FF3-982E-7635-51D4E8518940}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

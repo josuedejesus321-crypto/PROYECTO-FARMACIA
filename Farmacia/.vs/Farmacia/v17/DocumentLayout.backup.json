@@ -1,34 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\",
+  "WorkspaceRootPath": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|c:\\users\\admin\\desktop\\proyecto-farmacia\\farmacia\\farmaciaweb\\controllers\\exportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|c:\\users\\yeison de jesus\\desktop\\proyecto-farmacia\\farmacia\\farmaciaweb\\controllers\\exportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|solutionrelative:farmaciaweb\\controllers\\exportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|c:\\users\\admin\\desktop\\proyecto-farmacia\\farmacia\\farmaciaweb\\controllers\\historial_usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|solutionrelative:farmaciaweb\\controllers\\historial_usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|c:\\users\\admin\\desktop\\proyecto-farmacia\\farmacia\\farmaciaweb\\controllers\\historial_ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|solutionrelative:farmaciaweb\\controllers\\historial_ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|c:\\users\\admin\\desktop\\proyecto-farmacia\\farmacia\\farmaciaweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|solutionrelative:farmaciaweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|c:\\users\\admin\\desktop\\proyecto-farmacia\\farmacia\\farmaciaweb\\controllers\\medicamentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|solutionrelative:farmaciaweb\\controllers\\medicamentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|c:\\users\\admin\\desktop\\proyecto-farmacia\\farmacia\\farmaciaweb\\controllers\\proveedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|c:\\users\\yeison de jesus\\desktop\\proyecto-farmacia\\farmacia\\farmaciaweb\\controllers\\proveedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|solutionrelative:farmaciaweb\\controllers\\proveedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|c:\\users\\admin\\desktop\\proyecto-farmacia\\farmacia\\farmaciaweb\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|c:\\users\\yeison de jesus\\desktop\\proyecto-farmacia\\farmacia\\farmaciaweb\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|solutionrelative:farmaciaweb\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|c:\\users\\yeison de jesus\\desktop\\proyecto-farmacia\\farmacia\\farmaciaweb\\controllers\\historial_usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|solutionrelative:farmaciaweb\\controllers\\historial_usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|c:\\users\\yeison de jesus\\desktop\\proyecto-farmacia\\farmacia\\farmaciaweb\\controllers\\historial_ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|solutionrelative:farmaciaweb\\controllers\\historial_ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|c:\\users\\yeison de jesus\\desktop\\proyecto-farmacia\\farmacia\\farmaciaweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|solutionrelative:farmaciaweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|c:\\users\\yeison de jesus\\desktop\\proyecto-farmacia\\farmacia\\farmaciaweb\\controllers\\medicamentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC864823-4A98-4921-B9DD-29CAC8C5A6E7}|FarmaciaWeb\\FarmaciaWeb.csproj|solutionrelative:farmaciaweb\\controllers\\medicamentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,92 +44,86 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ExportController.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Controllers\\ExportController.cs",
+              "DocumentMoniker": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Controllers\\ExportController.cs",
               "RelativeDocumentMoniker": "FarmaciaWeb\\Controllers\\ExportController.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Controllers\\ExportController.cs",
+              "ToolTip": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Controllers\\ExportController.cs",
               "RelativeToolTip": "FarmaciaWeb\\Controllers\\ExportController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAkwE0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-07T18:36:52.436Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "VentasController.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Controllers\\VentasController.cs",
+              "DocumentMoniker": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Controllers\\VentasController.cs",
               "RelativeDocumentMoniker": "FarmaciaWeb\\Controllers\\VentasController.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Controllers\\VentasController.cs",
+              "ToolTip": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Controllers\\VentasController.cs",
               "RelativeToolTip": "FarmaciaWeb\\Controllers\\VentasController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T18:27:21.851Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProveedoresController.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Controllers\\ProveedoresController.cs",
-              "RelativeDocumentMoniker": "FarmaciaWeb\\Controllers\\ProveedoresController.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Controllers\\ProveedoresController.cs",
-              "RelativeToolTip": "FarmaciaWeb\\Controllers\\ProveedoresController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T18:27:21.115Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MedicamentosController.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Controllers\\MedicamentosController.cs",
-              "RelativeDocumentMoniker": "FarmaciaWeb\\Controllers\\MedicamentosController.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Controllers\\MedicamentosController.cs",
-              "RelativeToolTip": "FarmaciaWeb\\Controllers\\MedicamentosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T18:27:20.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "FarmaciaWeb\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "FarmaciaWeb\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T18:27:19.667Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Historial_VentasController.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Controllers\\Historial_VentasController.cs",
-              "RelativeDocumentMoniker": "FarmaciaWeb\\Controllers\\Historial_VentasController.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Controllers\\Historial_VentasController.cs",
-              "RelativeToolTip": "FarmaciaWeb\\Controllers\\Historial_VentasController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T18:27:18.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T18:27:21.851Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ProveedoresController.cs",
+              "DocumentMoniker": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Controllers\\ProveedoresController.cs",
+              "RelativeDocumentMoniker": "FarmaciaWeb\\Controllers\\ProveedoresController.cs",
+              "ToolTip": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Controllers\\ProveedoresController.cs",
+              "RelativeToolTip": "FarmaciaWeb\\Controllers\\ProveedoresController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T18:27:21.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MedicamentosController.cs",
+              "DocumentMoniker": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Controllers\\MedicamentosController.cs",
+              "RelativeDocumentMoniker": "FarmaciaWeb\\Controllers\\MedicamentosController.cs",
+              "ToolTip": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Controllers\\MedicamentosController.cs",
+              "RelativeToolTip": "FarmaciaWeb\\Controllers\\MedicamentosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T18:27:20.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FarmaciaWeb\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FarmaciaWeb\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T18:27:19.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Historial_VentasController.cs",
+              "DocumentMoniker": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Controllers\\Historial_VentasController.cs",
+              "RelativeDocumentMoniker": "FarmaciaWeb\\Controllers\\Historial_VentasController.cs",
+              "ToolTip": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Controllers\\Historial_VentasController.cs",
+              "RelativeToolTip": "FarmaciaWeb\\Controllers\\Historial_VentasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T18:27:18.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Historial_UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Controllers\\Historial_UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Controllers\\Historial_UsuariosController.cs",
               "RelativeDocumentMoniker": "FarmaciaWeb\\Controllers\\Historial_UsuariosController.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Controllers\\Historial_UsuariosController.cs",
+              "ToolTip": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\FarmaciaWeb\\Controllers\\Historial_UsuariosController.cs",
               "RelativeToolTip": "FarmaciaWeb\\Controllers\\Historial_UsuariosController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T18:27:18.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T18:27:18.098Z"
             }
           ]
         }

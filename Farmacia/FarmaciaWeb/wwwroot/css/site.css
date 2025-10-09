@@ -100,6 +100,11 @@ body {
     transform: scale(1.1);
 }
 
+.top-app-bar .btn {
+    margin-left: 8px;
+}
+
+
 
 /* 1. Ocultar la barra de navegación horizontal original */
 .navbar-expand-sm {
@@ -153,7 +158,10 @@ body {
 .custom-sidebar-style .nav-link.active i,
 .custom-sidebar-style .nav-link.active .link-text  {
     color: #fff !important;
+    
 }
+
+
 
 .custom-sidebar-style .nav-link {
     position: relative;
@@ -330,7 +338,7 @@ body {
     width: 30px; 
     text-align: center;
     margin-right: 10px;
-    display: inline-block;
+    display: none; /* Oculto por defecto */
 }
 
 
