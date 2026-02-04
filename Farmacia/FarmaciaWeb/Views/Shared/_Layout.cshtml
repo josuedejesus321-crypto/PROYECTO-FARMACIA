@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - FarmaciaWeb</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/FarmaciaWeb.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/dashboard.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="icon" type="image/png" href="~/Icons/Logo_Icon.ico">
+</head>
+<body>
+
+<div id="loader-wrapper">
+    <div class="loader"></div>
+    <p class="loader-text">Please wait...</p>
+</div>
+
+    
+    <nav class="top-app-bar">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+        <button id="sidebarToggle" class="btn menu-open-button-fixed" type="button" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="d-flex gap-2">
+    <!-- Botón PDF -->
+    <button id="pdfButton" class="btn btn-outline-danger" title="Exportar PDF">
+        <i class="fas fa-file-pdf"></i>
+    </button>
+
+    <!-- Botón RAR -->
+    <a href="~/files/SetupProyecto-Farmacia.rar" download class="btn btn-outline-primary" title="Descargar archivo RAR">
+        <i class="fas fa-file-archive"></i>
+    </a>
+</div>
+
+    </div>
+</nav>
+
+
+    
+    <div class="custom-sidebar-style" id="sidebarMenu">
+    <div class="sidebar-header-container">
+        <h5 class="sidebar-logo-text" id="sidebarMenuLabel">
+            <img src="~/Icons/Logo_Icon.png" alt="no esta la imagen" id="sidebarLogo"> Pharmacare
+        </h5>
+    </div>
+    <div class="sidebar-body">
+        
+        <div class="sidebar-user-info">
+            <span class="user-status-dot"></span>
+            <p class="user-name">Admin User</p>
+            <p class="user-email">admin@gmail.com</p>
+        </div>
+
+        <ul class="navbar-nav flex-column flex-grow-1">
+            <li class="nav-item nav-item-top">
+                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">
+                    <i class="fas fa-home"></i> <span class="link-text">Inicio</span>
+                </a>
+            </li>
+            <li class="nav-item nav-item-top">
+                <a class="nav-link" asp-area="" asp-controller="Clientes" asp-action="Index">
+                    <i class="fas fa-user-alt"></i> <span class="link-text">Clientes</span>
+                </a>
+            </li>
+            <li class="nav-item nav-item-top">
+                <a class="nav-link" asp-area="" asp-controller="Medicamentos" asp-action="Index">
+                    <i class="fas fa-pills"></i> <span class="link-text">Medicamentos</span>
+                </a>
+            </li>
+            <li class="nav-item nav-item-top">
+                <a class="nav-link" asp-area="" asp-controller="Proveedores" asp-action="Index">
+                    <i class="fas fa-users-cog"></i> <span class="link-text">Proveedores</span>
+                </a>
+            </li>
+            <li class="nav-item nav-item-top">
+                <a class="nav-link" asp-area="" asp-controller="Ventas" asp-action="Index">
+                    <i class="fas fa-cash-register"></i> <span class="link-text">Vender</span>
+                </a>
+            </li>
+            <li class="nav-item nav-item-top">
+                <a class="nav-link" asp-area="" asp-controller="Compras" asp-action="Index">
+                    <i class="fas fa-shopping-cart"></i> <span class="link-text">Comprar</span>
+                </a>
+            </li>
+            
+            <li class="nav-item nav-item-top nav-item-parent">
+                <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#historialSubmenu" aria-expanded="false" aria-controls="historialSubmenu">
+                    <i class="fas fa-file-alt"></i> <span class="link-text">Historiales</span>
+                    <i class="fas fa-chevron-down submenu-arrow"></i>
+                </a>
+                <div class="collapse" id="historialSubmenu">
+                    <ul class="nav flex-column ps-4 submenu-items">
+                        <li class="nav-item submenu-item">
+                            <a class="nav-link submenu-link" asp-area="" asp-controller="Historial_Ventas" asp-action="Index">
+                                <span class="dot-indicator"></span> Ventas
+                            </a>
+                        </li>
+                        <li class="nav-item submenu-item">
+                            <a class="nav-link submenu-link" asp-area="" asp-controller="Historial_Compras" asp-action="Index">
+                                <span class="dot-indicator"></span> Compras
+                            </a>
+                        </li>
+                        <li class="nav-item submenu-item submenu-item-active">
+                            <a class="nav-link submenu-link" asp-area="" asp-controller="Historial_Usuario" asp-action="Index">
+                                <span class="dot-indicator"></span> Usuarios
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+    <div class="content-wrapper">
+        <div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2025 - FarmaciaWeb - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

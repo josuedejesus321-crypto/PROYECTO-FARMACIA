@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "N/ZXtd0Vw54=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Yeison De Jesus\\Desktop\\PROYECTO-FARMACIA\\Farmacia\\Entidades\\Entidades.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Yeison De Jesus\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Yeison De Jesus\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Yeison De Jesus\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Yeison De Jesus\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512",
+    "C:\\Users\\Yeison De Jesus\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.305\\microsoft.net.sdk.compilers.toolset.9.0.305.nupkg.sha512"
+  ],
+  "logs": []
+}

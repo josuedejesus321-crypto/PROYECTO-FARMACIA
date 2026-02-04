@@ -1,0 +1,131 @@
+/* wwwroot/css/dashboard.css */
+:root {
+    --color-blue: #00bcd4; /* Color azul cian */
+    --color-green: #4CAF50; /* Color verde */
+    --color-red: #F44336; /* Color rojo */
+    --color-orange: #FF9800; /* Color naranja */
+    --color-text-light: #555;
+    --color-footer-text: #4caf50; 
+    --color-light-bg: #f5f5f5; 
+}
+
+/* ---------------------------------------------------- */
+/* CONTENEDOR DE TARJETAS */
+/* ---------------------------------------------------- */
+.dashboard-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    max-width: 1200px;
+    width: 100%;
+    justify-content: center; 
+    margin: 20px auto;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    flex: 1 1 22%; 
+    min-width: 250px; 
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; 
+}
+
+/* ---------------------------------------------------- */
+/* CABECERA (ICONO Y DATOS) */
+/* ---------------------------------------------------- */
+.card-header {
+    display: flex;
+    /* Reducimos el padding vertical y usamos el padding-right del card-info */
+    padding: 0; 
+    align-items: center;
+    position: relative;
+    /* Eliminamos el gradiente, la separación la dará el icono */
+    background: white;
+}
+
+/* Estilo del icono de fondo */
+.icon-bg {
+    /* Ajustes para el desplazamiento hacia arriba */
+    align-items: center; /* Alinea los elementos al centro */
+    padding: 30px 0px 0px 30px;      /* Empuja el icono hacia abajo 30px desde el borde superior */    
+    font-size: 32px;
+    color: white;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center; /* Mantiene el centrado horizontal */
+    z-index: 2; 
+    margin-right: 15px; 
+}
+
+.icon-bg i {
+    /* Elimina cualquier espaciado o altura de línea no deseada */
+    line-height: 1;
+    
+}
+
+/* Colores de fondo de la tarjeta (icono) */
+.card-blue .icon-bg { background-color: var(--color-blue); }
+.card-green .icon-bg { background-color: var(--color-green); }
+.card-red .icon-bg { background-color: var(--color-red); }
+.card-orange .icon-bg { background-color: var(--color-orange); }
+
+/* Información de la tarjeta (Texto y Número) */
+.card-info {
+    display: flex;
+    flex-direction: column;
+    /* Quitamos el padding-left que ya no es necesario */
+    padding-left: 0;
+    flex-grow: 1;
+    /* Alinear a la izquierda para el texto como en tu imagen */
+    text-align: left; 
+    padding-right: 20px;
+}
+
+.label {
+    font-size: 14px; /* Un poco más grande para mejor lectura */
+    color: var(--color-text-light);
+    font-weight: 500;
+    margin-bottom: 5px;
+    /* Aseguramos que el texto de la etiqueta esté en mayúsculas */
+    text-transform: uppercase; 
+}
+
+.value {
+    font-size: 38px; /* Un poco más grande para el número */
+    font-weight: bold;
+    color: #333;
+    line-height: 1.1;
+}
+
+/* ---------------------------------------------------- */
+/* PIE DE PÁGINA (SHOW DETAILS) */
+/* ---------------------------------------------------- */
+.card-footer {
+    border-top: 1px solid #eee;
+    padding: 10px 20px;
+    text-align: left;
+    background-color: #fcfcfc;
+    margin-top: auto; 
+}
+
+.details-link {
+    color: var(--color-footer-text); 
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.details-link:hover {
+    text-decoration: underline;
+}
+
+.show-details-icon {
+    font-size: 14px;
+    margin-right: 8px;
+}

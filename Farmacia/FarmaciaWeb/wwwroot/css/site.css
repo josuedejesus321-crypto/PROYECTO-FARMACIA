@@ -1,0 +1,365 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+    font-size: 16px;
+    }
+}
+
+.btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+    color: var(--bs-secondary-color);
+    text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+    text-align: start;
+}
+
+/*Loader*/
+/* Fondo del loader */
+#loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f5f5f5; /* fondo igual al de tu screenshot */
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Animación circular */
+.loader {
+    border: 6px solid #e0e0e0;
+    border-top: 6px solid #4CAF50; /* color verde como tu imagen */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+}
+
+/* Texto */
+.loader-text {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #555;
+    font-family: sans-serif;
+}
+
+/* Keyframes de giro */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Ocultar con transición */
+#loader-wrapper.fade-out {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.6s ease, visibility 0.6s ease;
+}
+
+
+#sidebarLogo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* --- Boton impresion --- */
+.top-app-bar .btn-outline-light {
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.top-app-bar .btn-outline-light:hover {
+    color: #ff4b4b;
+    transform: scale(1.1);
+}
+
+.top-app-bar .btn {
+    margin-left: 8px;
+}
+
+
+
+/* 1. Ocultar la barra de navegación horizontal original */
+.navbar-expand-sm {
+    display: none !important;
+}
+
+/* 2. Barra superior que contiene solo el botón de abrir */
+.top-app-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #1c1f22 !important;
+    z-index: 1900; /* alto para sobreponer al sidebar */
+    display: flex;
+    align-items: center;
+    transition: margin-left 0.3s ease, width 0.3s ease;
+    width: calc(100% - 60px);
+}
+
+/* 3. Botón para abrir el menú (fijo y verde) */
+.menu-open-button-fixed {
+    color: #4CAF50 !important;
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 2100; /* más alto que top-app-bar */
+    position: relative;
+    pointer-events: auto;
+    transition: 0.3s ease-in-out;
+}
+
+.btnnac{
+    transition: .3s ease-in-out;
+    transform: translateX(100px);
+    padding-left: 120px;
+}
+
+.custom-sidebar-style .nav-link.active{
+    background-color: #37a000 !important; /* Verde brillante */
+    color: #fff !important;
+    border-radius: 4px;
+    box-shadow: 
+        0 0 10px rgba(76, 175, 80, 0.7),  /* Sombra interna para un "resplandor" más nítido */
+        0 0 25px rgba(76, 175, 80, 0.5),  /* Sombra externa para el brillo difuso */
+        0 0 50px rgba(76, 175, 80, 0.3);  /* Una sombra más grande y tenue */
+}
+
+.custom-sidebar-style .nav-link.active i,
+.custom-sidebar-style .nav-link.active .link-text  {
+    color: #fff !important;
+    
+}
+
+
+
+.custom-sidebar-style .nav-link {
+    position: relative;
+    overflow: hidden;  /* que la onda no se salga del contenedor */
+}
+
+.ripple-effect {
+    position: absolute;
+    border-radius: 50%;
+    transform: scale(0);
+    background-color: rgba(255, 255, 255, 0.5);
+    animation: ripple-animation 600ms linear;
+    pointer-events: none;
+}
+
+@keyframes ripple-animation {
+    to {
+        transform: scale(4);
+        opacity: 0;
+    }
+}
+
+.custom-sidebar-style {
+    width: 250px;
+    transition: width 0.3s ease;
+    background-color: #1c1f22;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    z-index: 2000;
+}
+
+/* CLASE AÑADIDA POR JAVASCRIPT: Estado de Menú Minimizado */
+.custom-sidebar-style.minimized {
+    width: 60px; /* Ancho de solo iconos */
+    /* Aquí podrías ajustar el padding si es necesario */
+}
+
+.custom-sidebar-style.minimized .link-text {
+    display: none;
+}
+
+/* 5. Estilo del encabezado del menú (Solo título) */
+.sidebar-header-container {
+    background-color: #1c1f22; 
+    color: #f1f1f1;
+    padding: 15px 20px;
+    border-bottom: 1px solid #1c1f22;
+    display: flex;
+    justify-content: flex-start; /* Solo el título a la izquierda */
+    align-items: center;
+    min-height: 60px;
+    
+}
+.sidebar-logo-text {
+    
+    font-weight: normal;
+    font-size: 25px;
+    color: #f1f1f1;
+    white-space: nowrap;
+    align-items: center;
+    
+}
+
+#sidebarMenuLabel {
+    font-family: sans-serif;
+}
+
+
+/* 6. Estilo de la información del usuario */
+.sidebar-user-info {
+    padding: 5px 40px;
+    padding-top: 0;
+    color: #f1f1f1;
+    text-align: left;
+    white-space: nowrap;
+    border-bottom: #1c1f22;
+    
+}
+.sidebar-user-info .user-status-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-right: 8px;
+    vertical-align: middle;
+    position: relative;
+    top: 50px;
+    
+    
+}
+
+.sidebar-user-info p {
+    left: 20px;
+    position: relative;
+}   
+
+
+.sidebar-user-info .user-name {
+    font-weight: bold;
+    margin-bottom: 2px;
+    font-size: 1rem;
+    
+}
+
+.sidebar-user-info .user-email {
+    font-size: 0.85rem;
+    color: #ccc;
+    margin-top: 0;
+}
+
+/* 7. Estilo de los enlaces principales y submenús */
+.custom-sidebar-style .nav-item-top .nav-link {
+    color: #a5a9ad !important;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.custom-sidebar-style .nav-item-top .nav-link:hover {
+    color: #fff !important;
+}
+
+.custom-sidebar-style .nav-link i {
+    width: 30px;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 1.1rem;
+}
+
+/* Flechas para el submenú (Historiales) */
+.nav-item-parent .nav-link {
+    justify-content: space-between; /* Empuja la flecha a la derecha */
+}
+.submenu-arrow {
+    font-size: 0.8rem;
+    margin-left: auto; /* Empuja la flecha al final */
+    transition: transform 0.2s;
+}
+.nav-item-parent .nav-link[aria-expanded="true"] .submenu-arrow {
+    transform: rotate(180deg);
+}
+
+
+/* Estilo del Sub-Menú (elementos anidados) */
+.custom-sidebar-style .submenu-link {
+    color: #f1f1f1 ;
+    padding: 8px 20px 8px 50px !important; /* Padding ajustado para submenú */
+    font-size: 0.9rem;
+    transition: background-color 0.2s;
+}
+
+.custom-sidebar-style .submenu-link:hover {
+    background-color: #3c3f42 !important; 
+}
+ /*.submenu-item-active .submenu-link {
+     Puedes definir aquí un estilo para el link activo si lo deseas 
+}*/
+
+.dot-indicator::before {
+    content: "•";
+    font-size: 1.5rem;
+    line-height: 0;
+    vertical-align: middle;
+    margin-right: 10px;
+    color: #f1f1f1;
+}
+.dot-indicator {
+    width: 30px; 
+    text-align: center;
+    margin-right: 10px;
+    display: none; /* Oculto por defecto */
+}
+
+
+/* 8. Ajuste del contenido principal (padding y desplazamiento) */
+
+/* --- CONFIGURACIÓN DE MARGEN PARA EL CONTENIDO PRINCIPAL --- */
+
+/* ESTADO ABIERTO (Sin la clase .minimized, el menú es de 250px) */
+.content-wrapper {
+    transition: margin-left 0.3s ease-in-out;
+    margin-left: 250px;
+    padding-top: 60px;
+}
+
+/* ESTADO CERRADO/MINIMIZADO (Con la clase .minimized, el menú es de 60px) */
+.content-wrapper.minimized {
+    /* Margen reducido cuando el menú está colapsado a solo 60px */
+    margin-left: 60px; 
+}
+
+
+
+
+
